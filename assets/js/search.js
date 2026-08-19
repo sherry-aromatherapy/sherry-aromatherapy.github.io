@@ -1,11 +1,9 @@
 (function(){
-  let searchData = null;
-  const toggle = document.getElementById('searchToggle');
-  const panel = document.getElementById('searchPanel');
   const input = document.getElementById('searchInput');
   const results = document.getElementById('searchResults');
+  if (!input || !results) return;
 
-  if (!toggle || !panel || !input || !results) return;
+  let searchData = null;
 
   function loadData(){
     if (searchData) return Promise.resolve(searchData);
@@ -34,7 +32,7 @@
              item.content.toLowerCase().includes(q) ||
              (item.tags || []).some(t => t.toLowerCase().includes(q)) ||
              (item.categories || []).some(c => c.toLowerCase().includes(q));
-    }).slice(0, 20);
+    }).slice(0, 30);
 
     if (matches.length === 0){
       results.innerHTML = '<div class="search-empty">找不到符合的文章</div>';
@@ -50,11 +48,9 @@
     `).join('');
   }
 
-  toggle.addEventListener('click', () => {
-    panel.classList.toggle('open');
-    if (panel.classList.contains('open')){
-      loadData().then(() => input.focus());
-    }
+  loadData().then(() => {
+    input.focus();
+    if (input.value) render(input.value);
   });
 
   input.addEventListener('input', () => {

@@ -32,8 +32,8 @@ permalink: /start-here/
 
 可以先從這些內容開始：
 
-→ **[《精油濃度安心使用大全》](https://sherryaromatherapy.wordpress.com/2026/01/22/eo-dilution-ebook/)**  
-→ **[精油安全與使用文章](https://sherryaromatherapy.wordpress.com/category/%e7%b2%be%e6%b2%b9%e5%ae%89%e5%85%a8%e8%88%87%e4%bd%bf%e7%94%a8/)**
+→ **[《精油濃度安心使用大全》](/2026/01/22/精油濃度安心使用大全/)**  
+→ **[精油安全與使用文章](/archive/?cat=精油安全與使用)**
 
 ---
 
@@ -48,7 +48,7 @@ permalink: /start-here/
 
 可以從：
 
-→ **[《看懂植物油》](https://sherryaromatherapy.wordpress.com/2026/05/05/point-of-oil/)**
+→ **[《看懂植物油》](/2026/05/05/看懂植物油從芳療角度出發建立你的選油判斷力/)**
 
 ---
 
@@ -67,7 +67,7 @@ permalink: /start-here/
 
 這一區可能最適合你。
 
-→ **[芳療判斷與查證](https://sherryaromatherapy.wordpress.com/category/%e8%8a%b3%e7%99%82%e5%88%a4%e6%96%b7%e8%88%87%e6%9f%a5%e8%ad%89/)**
+→ **[芳療判斷與查證](/archive/?cat=芳療判斷與查證)**
 
 這裡會放研究解讀、常見說法拆解、資料來源、精油品質與各種判斷問題。
 
@@ -102,7 +102,7 @@ permalink: /start-here/
 
 可以從：
 
-→ **[嗅覺、情緒與身體](https://sherryaromatherapy.wordpress.com/category/%e5%97%85%e8%a6%ba%e3%80%81%e6%83%85%e7%b7%92%e8%88%87%e8%ba%ab%e9%ab%94/)**
+→ **[嗅覺、情緒與身體](/archive/?cat=嗅覺、情緒與身體)**
 
 開始讀。
 
@@ -120,8 +120,8 @@ permalink: /start-here/
 
 可以從：
 
-→ **[芳療學習與書單](https://sherryaromatherapy.wordpress.com/category/%e8%8a%b3%e7%99%82%e5%ad%b8%e7%bf%92%e8%88%87%e6%9b%b8%e5%96%ae/)**  
-→ **[我的 1+40 本芳療書單](https://sherryaromatherapy.wordpress.com/2025/07/24/aromabooklist/)**
+→ **[芳療學習與書單](/archive/?cat=芳療學習與書單)**  
+→ **[我的 1+40 本芳療書單](/2025/07/24/雪莉的-1+40-本芳療書單開啟你的芳療自學之旅/)**
 
 開始。
 
@@ -131,7 +131,7 @@ permalink: /start-here/
 
 如果你現在沒有特別要解決的問題，只是想逛逛：
 
-→ **[所有芳療文章](https://sherryaromatherapy.wordpress.com/)**  
+→ **[所有芳療文章](/archive/)**  
 → **[Threads](https://www.threads.com/@sherry.aromatherapy)**  
 → [**Instagram**](https://www.instagram.com/@sherry.aromatherapy)  
 → **[Podcast《不只是芳療》](https://open.spotify.com/show/033riNlYcMoPK6RfmslFXC)**  
@@ -147,7 +147,7 @@ permalink: /start-here/
 
 這種情況可以看看：
 
-→ **[一對一芳療線上課](https://sherryaromatherapy.wordpress.com/custom-aroma-session/)**
+→ **[一對一芳療線上課](/custom-aroma-session/)**
 
 ---
 

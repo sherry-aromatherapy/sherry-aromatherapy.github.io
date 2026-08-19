@@ -7,11 +7,7 @@
       <a href="{{ item.url | relative_url }}"
          class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
     {% endfor %}
-    <button type="button" class="search-toggle" id="searchToggle">🔍 搜尋</button>
+    <a href="{{ '/search/' | relative_url }}"
+       class="{% if page.url == '/search/' %}active{% endif %}">🔍 搜尋</a>
   </nav>
 </header>
-
-<div class="search-panel" id="searchPanel">
-  <input type="text" id="searchInput" placeholder="輸入關鍵字搜尋文章…" autocomplete="off">
-  <div class="search-results" id="searchResults"></div>
-</div>

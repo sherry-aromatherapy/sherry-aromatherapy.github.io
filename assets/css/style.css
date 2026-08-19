@@ -18,7 +18,7 @@ body{
     radial-gradient(circle at 8% 6%, rgba(147,166,127,0.09), transparent 40%),
     radial-gradient(circle at 92% 94%, rgba(232,185,180,0.13), transparent 45%);
   color:var(--bark);
-  font-family:'Noto Sans TC', sans-serif;
+  font-family:'Chiron Hei HK WS','Noto Sans TC',sans-serif;
   font-weight:400;
   letter-spacing:0.03em;
   line-height:1.9;
@@ -86,46 +86,38 @@ nav.site-nav a.active{
   background:var(--indigo);
   color:var(--parchment);
 }
-nav.site-nav button.search-toggle{
-  font-size:13px;
-  padding:7px 14px;
-  border-radius:999px;
-  border:1px solid var(--linen);
-  background:rgba(255,255,255,0.5);
-  color:var(--bark);
-  font-family:'Noto Sans TC', sans-serif;
-  font-weight:500;
-  cursor:pointer;
-  letter-spacing:0.03em;
-}
 
-/* ---------- Search panel ---------- */
-.search-panel{
-  display:none;
-  max-width:720px;
-  margin:0 auto 30px;
-  padding:0 20px;
+/* ---------- Search page ---------- */
+.search-page{
+  padding-top:6px;
 }
-.search-panel.open{display:block;}
-.search-panel input{
+.search-page-title{
+  font-size:24px;
+  font-weight:700;
+  color:var(--indigo);
+  text-align:center;
+  margin:0 0 26px;
+}
+.search-input-wide{
   width:100%;
-  padding:13px 16px;
+  padding:18px 20px;
   border:1px solid var(--linen);
-  border-radius:6px;
+  border-radius:8px;
   background:rgba(255,255,255,0.6);
-  font-family:'Noto Sans TC', sans-serif;
-  font-size:15px;
+  font-family:'Chiron Hei HK WS','Noto Sans TC',sans-serif;
+  font-size:17px;
   color:var(--bark);
   outline:none;
+  letter-spacing:0.03em;
 }
-.search-panel input:focus{border-color:var(--clay-deep);}
-.search-results{margin-top:14px;}
+.search-input-wide:focus{border-color:var(--clay-deep);}
+.search-results{margin-top:20px;}
 .search-result-item{
-  padding:12px 0;
+  padding:16px 0;
   border-bottom:1px solid var(--linen);
 }
 .search-result-item a{
-  font-size:15px;
+  font-size:16px;
   font-weight:500;
   color:var(--indigo);
 }
@@ -135,15 +127,15 @@ nav.site-nav button.search-toggle{
   margin-top:3px;
 }
 .search-result-item .snippet{
-  font-size:13px;
+  font-size:14px;
   color:var(--bark);
-  margin-top:5px;
-  line-height:1.6;
+  margin-top:6px;
+  line-height:1.7;
 }
 .search-empty{
   color:var(--mist);
-  font-size:13px;
-  padding:12px 0;
+  font-size:14px;
+  padding:16px 0;
 }
 
 /* ---------- Post list (home / archive) ---------- */
@@ -220,27 +212,39 @@ article.post .post-tags{margin-top:10px;}
 
 article.post .post-content{
   font-size:16px;
-  line-height:2;
+  line-height:1.95;
 }
 article.post .post-content h2{
-  font-size:20px;
-  font-weight:700;
-  margin:40px 0 16px;
+  font-size:21px;
+  font-weight:640;
+  margin:52px 0 18px;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--linen);
   color:var(--indigo);
   letter-spacing:0.05em;
+  line-height:1.5;
 }
+article.post .post-content h2:first-child{margin-top:0;}
 article.post .post-content h3{
   font-size:17px;
-  font-weight:700;
-  margin:30px 0 14px;
+  font-weight:600;
+  margin:36px 0 12px;
   color:var(--bark);
+  line-height:1.5;
 }
-article.post .post-content p{margin:0 0 20px;}
+/* don't let bold text inside a heading stack extra weight on top of the heading's own weight */
+article.post .post-content h1 strong,
+article.post .post-content h2 strong,
+article.post .post-content h3 strong,
+article.post .post-content h4 strong{
+  font-weight:inherit;
+}
+article.post .post-content p{margin:0 0 22px;}
 article.post .post-content ul, article.post .post-content ol{
-  margin:0 0 20px;
-  padding-left:24px;
+  margin:18px 0 26px;
+  padding-left:26px;
 }
-article.post .post-content li{margin-bottom:8px;}
+article.post .post-content li{margin-bottom:10px;}
 article.post .post-content blockquote{
   margin:24px 0;
   padding:4px 20px;
@@ -314,22 +318,41 @@ article.post .post-content summary::marker{color:var(--clay-deep);}
 /* ---------- Page (static) ---------- */
 article.page h1{
   font-size:24px;
-  font-weight:700;
+  font-weight:680;
   color:var(--indigo);
   margin-bottom:24px;
   text-align:center;
 }
 article.page .page-content{
   font-size:16px;
-  line-height:2;
+  line-height:1.95;
 }
 article.page .page-content h2{
   font-size:19px;
-  font-weight:700;
-  margin:32px 0 14px;
+  font-weight:640;
+  margin:44px 0 16px;
+  padding-bottom:8px;
+  border-bottom:1px solid var(--linen);
   color:var(--indigo);
+  line-height:1.5;
 }
-article.page .page-content p{margin:0 0 18px;}
+article.page .page-content h2:first-child{margin-top:0;}
+article.page .page-content h1 strong,
+article.page .page-content h2 strong,
+article.page .page-content h3 strong{
+  font-weight:inherit;
+}
+article.page .page-content p{margin:0 0 20px;}
+article.page .page-content ul, article.page .page-content ol{
+  margin:16px 0 24px;
+  padding-left:26px;
+}
+article.page .page-content li{margin-bottom:9px;}
+article.page .page-content hr{
+  border:none;
+  border-top:1px solid var(--linen);
+  margin:8px 0;
+}
 article.page .page-content img{max-width:100%; border-radius:6px;}
 
 /* ---------- Footer ---------- */

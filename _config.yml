@@ -37,6 +37,8 @@ defaults:
 nav:
   - title: "首頁"
     url: "/"
+  - title: "從這裡開始"
+    url: "/start-here/"
   - title: "文章"
     url: "/archive/"
   - title: "關於雪莉"
