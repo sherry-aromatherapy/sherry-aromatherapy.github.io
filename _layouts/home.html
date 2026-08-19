@@ -1,6 +1,24 @@
 ---
 layout: default
 ---
+<div class="intro-hero">
+  <p class="intro-text">我不太教你背芳療答案，更想陪你看懂資料、理解自己的使用情境，練習做出適合自己的判斷。</p>
+  <div class="intro-cards">
+    <a href="{{ '/start-here/' | relative_url }}" class="intro-card">
+      <span class="intro-card-q">想開始學芳療</span>
+      <span class="intro-card-cta">從這裡開始 →</span>
+    </a>
+    <a href="{{ '/sherrybooks/' | relative_url }}" class="intro-card">
+      <span class="intro-card-q">想深入學習</span>
+      <span class="intro-card-cta">我的書 →</span>
+    </a>
+    <a href="{{ '/custom-aroma-session/' | relative_url }}" class="intro-card">
+      <span class="intro-card-q">有自己的問題</span>
+      <span class="intro-card-cta">一對一芳療 →</span>
+    </a>
+  </div>
+</div>
+
 {% assign excerpt_sentence_count = 3 %}
 <div class="section-heading">最新文章</div>
 {% for post in site.posts limit: 10 %}

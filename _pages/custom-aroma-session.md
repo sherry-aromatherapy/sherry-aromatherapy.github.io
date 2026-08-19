@@ -19,7 +19,7 @@ permalink: /custom-aroma-session/
 
 ---
 
-**這堂課適合你，如果：**
+### 這堂課適合你，如果：
 
 - 已經有一些精油、純露或植物油，卻不確定怎麼搭配與使用
 - 經常查資料，卻很難判斷哪些資訊適合自己的情況
@@ -78,7 +78,7 @@ permalink: /custom-aroma-session/
 
 ---
 
-**課程資訊與收費方式**
+### 課程資訊與收費方式
 
 - 上課方式：Google Meet 一對一視訊
 - 課程內容：30 分鐘前導課＋90 分鐘專屬課程
@@ -99,7 +99,7 @@ permalink: /custom-aroma-session/
 
 同一句「睡不好可以用什麼精油」，背後可能有完全不同的生活情境、使用經驗與實際需求。先透過前導課整理，我才能讓第二次課程聚焦在真正適合你的知識與方法上，避免接收大量資料後，回到生活中仍然不知道該怎麼使用。
 
-**情境一｜想用芳療支持睡眠**
+### 情境一｜想用芳療支持睡眠
 
 你可能會問：「睡不好可以用什麼精油？」
 
@@ -114,7 +114,7 @@ permalink: /custom-aroma-session/
 
 ※課程會從芳療使用與日常安排的角度提供建議，不進行睡眠障礙的診斷或治療。
 
-**情境二｜想學會設計精油噴霧**
+### 情境二｜想學會設計精油噴霧
 
 你可能想製作精油噴霧，卻同時卡在：
 
@@ -131,7 +131,7 @@ permalink: /custom-aroma-session/
 
 ---
 
-**常見問題 Q&A**
+### 常見問題 Q&A
 
 **Q：我有一些芳療使用上的困擾，但不知道該從哪裡問起，適合報名嗎？**  
 適合。這正是第一次前導課會一起整理的部分。你不需要在報名時就把問題想得很完整，我們會從你的生活情境、使用經驗與手邊資源，慢慢找出適合的學習起點。
@@ -150,7 +150,7 @@ permalink: /custom-aroma-session/
 **Q：我想做噴霧／滾珠／塗抹油，這堂課會教嗎？**  
 可以。課程會依照你的使用目的，說明配方設計、濃度與安全注意事項。課程內容以個人與家庭自用為主；如果你有製作販售的需求，則需要另外考量相關產品規範與生產條件。
 
-**Q：**我什麼都不懂****，**這堂課會不會太難？**  
+**Q：我什麼都不懂，這堂課會不會太難？**  
 不會。即使完全沒有接觸過芳療，我也會從你目前最需要的基礎概念開始說明。這堂課不要求你具備既有知識，課程內容會依照你的起點安排。
 
 ---
@@ -160,8 +160,8 @@ permalink: /custom-aroma-session/
 我曾在芳療公司工作十年，負責過第一線門市銷售、客服、文宣與芳療教學，也出版了三本書：
 
 - [《生活裡的芳療小百科》](https://www.books.com.tw/products/0010898814)（麥浩斯出版）
-- [《精油濃度安心使用大全》](https://sherryaromatherapy.wordpress.com/eo-dilution-ebook/)（獨立出版）
-- [《看懂植物油》](https://sherryaromatherapy.wordpress.com/point-of-oil/)（獨立出版）
+- [《精油濃度安心使用大全》](/2026/01/22/精油濃度安心使用大全/)（獨立出版）
+- [《看懂植物油》](/2026/05/05/看懂植物油從芳療角度出發建立你的選油判斷力/)（獨立出版）
 
 長期回應使用者問題的經驗，讓我發現，很多人缺少的並不是更多配方，而是有人陪他把零散的問題整理清楚，找到適合自己的理解起點。
 
@@ -169,13 +169,13 @@ permalink: /custom-aroma-session/
 
 想先看看我的分享與說明方式？你可以從這些地方觀察我：）
 
-**[我的個人介紹](https://sherryaromatherapy.wordpress.com/info/)、[我的 IG](https://www.instagram.com/sherry.aromatherapy/)、[我的 Threads](https://www.threads.net/@sherry.aromatherapy)**
+**[我的個人介紹](/info/)、[我的 IG](https://www.instagram.com/sherry.aromatherapy/)、[我的 Threads](https://www.threads.net/@sherry.aromatherapy)**
 
 ---
 
 謝謝你閱讀到這裡，如果還有其他想了解的資訊，你可以寄信或 IG 私訊我，讓我們的對話從這裡開始：
 
-**與我聯絡**
+### 與我聯絡
 
 **📩 E-mail｜sherry.aromatherapy@gmail.com  
 💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)**

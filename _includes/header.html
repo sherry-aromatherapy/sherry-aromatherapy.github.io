@@ -11,6 +11,7 @@
          class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
     {% endfor %}
     <a href="{{ '/search/' | relative_url }}"
-       class="{% if page.url == '/search/' %}active{% endif %}">🔍 搜尋</a>
+       class="nav-search-icon {% if page.url == '/search/' %}active{% endif %}"
+       aria-label="搜尋">🔍</a>
   </nav>
 </div>
