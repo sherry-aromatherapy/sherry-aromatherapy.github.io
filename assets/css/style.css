@@ -60,6 +60,7 @@ nav.site-nav{
   font-family:'Noto Serif TC',serif;
   font-size:15px;
   font-weight:700;
+  letter-spacing:0.08em;
   color:var(--indigo);
   margin-right:auto;
   padding:7px 8px 7px 0;
@@ -228,6 +229,7 @@ nav.site-nav a.nav-cta:hover{
   font-family:'Noto Serif TC',serif;
   font-size:52px;
   font-weight:700;
+  letter-spacing:0.04em;
   color:var(--indigo);
   line-height:1.35;
   margin:0 0 16px;
@@ -526,6 +528,10 @@ article.page .page-content h3 strong{
 article.page .page-content p{margin:0 0 20px;}
 article.page .page-content a{
   border-bottom:1px solid var(--clay);
+}
+article.page .page-content .post-list-item h2 a,
+article.page .page-content .post-list-item .cats a{
+  border-bottom:none;
 }
 article.page .page-content ul, article.page .page-content ol{
   margin:16px 0 24px;
