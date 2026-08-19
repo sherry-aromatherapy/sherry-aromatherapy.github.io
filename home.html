@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="section-heading">最新文章</div>
+{% for post in site.posts limit: 10 %}
+<div class="post-list-item">
+  <div class="date">{{ post.date | date: "%Y年%m月%d日" }}</div>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <div class="excerpt">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+  {% if post.categories.size > 0 %}
+  <div class="cats">
+    {% for cat in post.categories %}<a href="{{ '/archive/' | relative_url }}">{{ cat }}</a>{% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
+
+<div style="text-align:center; margin-top:30px;">
+  <a href="{{ '/archive/' | relative_url }}" style="font-size:13px; font-weight:500;">查看所有文章 →</a>
+</div>
