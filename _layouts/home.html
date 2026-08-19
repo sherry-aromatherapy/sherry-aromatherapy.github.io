@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
+{% assign excerpt_sentence_count = 3 %}
 <div class="section-heading">最新文章</div>
 {% for post in site.posts limit: 10 %}
+{% assign excerpt_text = post.excerpt | strip_html | strip_newlines %}
+{% assign sentences = excerpt_text | split: "。" %}
+{% assign preview = sentences | slice: 0, excerpt_sentence_count | join: "。" %}
 <div class="post-list-item">
   <div class="date">{{ post.date | date: "%Y年%m月%d日" }}</div>
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <div class="excerpt">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+  <div class="excerpt">{{ preview }}{% if sentences.size > excerpt_sentence_count %}。{% endif %}</div>
   {% if post.categories.size > 0 %}
   <div class="cats">
     {% for cat in post.categories %}<a href="{{ '/archive/' | relative_url }}">{{ cat }}</a>{% endfor %}
