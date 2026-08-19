@@ -1,15 +1,11 @@
-<header class="site-header">
-  <div class="brand-en">Sherry's Aromatherapy Viewpoint</div>
-  <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-  <div class="tagline">{{ site.description }}</div>
-</header>
-
 <div class="nav-sticky">
   <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title }}</a>
     {% for item in site.nav %}
       <a href="{{ item.url | relative_url }}"
          class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
     {% endfor %}
+    <a href="{{ '/custom-aroma-session/' | relative_url }}" class="nav-cta">一對一芳療</a>
     <a href="{{ '/search/' | relative_url }}"
        class="nav-search-icon {% if page.url == '/search/' %}active{% endif %}"
        aria-label="搜尋">🔍</a>

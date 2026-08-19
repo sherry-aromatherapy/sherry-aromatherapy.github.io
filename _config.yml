@@ -39,12 +39,10 @@ nav:
     url: "/start-here/"
   - title: "文章"
     url: "/archive/"
-  - title: "關於雪莉"
-    url: "/info/"
-  - title: "一對一芳療"
-    url: "/custom-aroma-session/"
   - title: "我的書"
     url: "/sherrybooks/"
+  - title: "關於雪莉"
+    url: "/info/"
 
 exclude:
   - README.md
