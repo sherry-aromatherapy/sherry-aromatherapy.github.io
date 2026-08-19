@@ -136,7 +136,7 @@ nav.site-nav{
   font-family:var(--font-serif);
   font-size:15px;
   font-weight:700;
-  letter-spacing:0.08em;
+  letter-spacing:0.10em;
   color:var(--indigo);
   margin-right:auto;
   padding:7px 8px 7px 0;
@@ -149,15 +149,18 @@ nav.site-nav{
 }
 .nav-menu-toggle{
   display:none;
+  align-items:center;
   background:none;
   border:none;
-  font-size:20px;
-  line-height:1;
   color:var(--bark);
   cursor:pointer;
   padding:6px 8px;
   margin-left:2px;
 }
+.nav-menu-toggle:hover{color:var(--indigo);}
+.nav-menu-toggle .icon-close{display:none;}
+.nav-menu-toggle.open .icon-menu{display:none;}
+.nav-menu-toggle.open .icon-close{display:block;}
 nav.site-nav a{
   font-size:13px;
   padding:7px 14px;
@@ -179,7 +182,14 @@ nav.site-nav a.active{
 nav.site-nav a.nav-search-icon{
   margin-left:6px;
   padding:7px 11px;
-  font-size:15px;
+  display:inline-flex;
+  align-items:center;
+  color:var(--bark);
+}
+nav.site-nav a.nav-search-icon:hover,
+nav.site-nav a.nav-search-icon.active{
+  color:var(--indigo);
+  background:transparent;
 }
 nav.site-nav a.nav-cta{
   background:var(--indigo);
@@ -200,6 +210,7 @@ nav.site-nav a.nav-cta:hover{
   font-family:var(--font-serif);
   font-size:24px;
   font-weight:700;
+  letter-spacing:0.04em;
   color:var(--indigo);
   text-align:center;
   margin:0 0 26px;
@@ -225,7 +236,7 @@ nav.site-nav a.nav-cta:hover{
 .search-result-item a{
   font-size:16px;
   font-weight:500;
-  color:var(--indigo);
+  color:var(--clay-deep);
 }
 .search-result-item .meta{
   font-size:12px;
@@ -260,6 +271,7 @@ nav.site-nav a.nav-cta:hover{
   font-family:var(--font-serif);
   font-size:21px;
   font-weight:700;
+  letter-spacing:0.04em;
   margin:8px 0 10px;
   line-height:1.5;
 }
@@ -322,7 +334,7 @@ nav.site-nav a.nav-cta:hover{
   font-family:var(--font-serif);
   font-size:52px;
   font-weight:700;
-  letter-spacing:0.04em;
+  letter-spacing:0.06em;
   color:var(--indigo);
   line-height:1.35;
   margin:0 0 16px;
@@ -399,7 +411,8 @@ nav.site-nav a.nav-cta:hover{
   font-family:var(--font-serif);
   font-size:19px;
   font-weight:700;
-  color:var(--indigo);
+  letter-spacing:0.04em;
+  color:var(--clay-deep);
 }
 .entry-item:hover .entry-cta{color:var(--indigo-deep);}
 .entry-item:hover{text-decoration:none;}
@@ -423,7 +436,8 @@ nav.site-nav a.nav-cta:hover{
   font-family:var(--font-serif);
   font-size:17px;
   font-weight:700;
-  color:var(--indigo);
+  letter-spacing:0.04em;
+  color:var(--clay-deep);
   margin-bottom:4px;
 }
 .book-item:hover .book-title{color:var(--indigo-deep);}
@@ -437,7 +451,7 @@ nav.site-nav a.nav-cta:hover{
   margin-top:18px;
   font-size:13px;
   font-weight:500;
-  color:var(--indigo);
+  color:var(--clay-deep);
 }
 .about-teaser{
   font-size:15.5px;
@@ -473,6 +487,7 @@ article.post .post-header h1{
   font-family:var(--font-serif);
   font-size:34px;
   font-weight:700;
+  letter-spacing:0.04em;
   line-height:1.5;
   margin:10px 0 14px;
   color:var(--indigo);
@@ -491,7 +506,7 @@ article.post .post-content h2{
   padding-bottom:10px;
   border-bottom:1px solid var(--linen);
   color:var(--indigo);
-  letter-spacing:0.02em;
+  letter-spacing:0.06em;
   line-height:1.5;
 }
 article.post .post-content h2:first-child{margin-top:0;}
@@ -589,6 +604,7 @@ article.page h1{
   font-family:var(--font-serif);
   font-size:32px;
   font-weight:700;
+  letter-spacing:0.04em;
   color:var(--indigo);
   margin-bottom:28px;
   text-align:center;
@@ -601,6 +617,7 @@ article.page .page-content h2{
   font-family:var(--font-serif);
   font-size:23px;
   font-weight:700;
+  letter-spacing:0.04em;
   margin:48px 0 16px;
   padding-bottom:8px;
   border-bottom:1px solid var(--linen);
@@ -667,7 +684,7 @@ footer.site-footer .credit-en{
 }
 
 @media (max-width:640px){
-  .nav-menu-toggle{display:block;}
+  .nav-menu-toggle{display:flex;}
   .nav-links{
     display:none;
     flex-direction:column;
@@ -698,4 +715,236 @@ footer.site-footer .credit-en{
   article.page .page-content h2{font-size:20px;}
   .entry-item{flex-direction:column; gap:4px;}
   .entry-item .entry-q{flex:none;}
+}
+
+/* ==================== About page (editorial long-form) ==================== */
+article.about{
+  font-size:var(--text-body);
+  line-height:1.85;
+}
+.about-section{
+  margin-top:var(--section-gap);
+}
+.about-section:first-child{margin-top:0;}
+@media (max-width:767px){
+  .about-section{margin-top:var(--section-gap-important, 64px);}
+}
+
+/* ---- 1. Hero ---- */
+.about-hero{
+  text-align:center;
+  padding-bottom:var(--space-l);
+  border-bottom:1px solid var(--linen);
+}
+.about-hero h1{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:var(--text-h1);
+  letter-spacing:0.03em;
+  line-height:1.4;
+  color:var(--indigo);
+  max-width:640px;
+  margin:0 auto var(--space-m);
+}
+.about-hero p{
+  font-size:var(--text-body-lg);
+  color:var(--text-primary);
+  max-width:560px;
+  margin:0 auto;
+  line-height:1.85;
+}
+
+/* ---- 2. Question cards ---- */
+.about-cards{
+  display:flex;
+  flex-wrap:wrap;
+  gap:var(--space-m);
+}
+.about-card{
+  flex:1 1 200px;
+  padding-top:var(--space-s);
+  border-top:2px solid var(--accent);
+}
+.about-card .about-card-label{
+  font-size:12px;
+  color:var(--text-secondary);
+  margin-bottom:8px;
+}
+.about-card .about-card-q{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:18px;
+  color:var(--text-primary);
+  line-height:1.6;
+}
+.about-lead{
+  font-size:var(--text-body-lg);
+  color:var(--text-primary);
+  max-width:520px;
+  margin:var(--space-l) 0 0;
+  line-height:1.85;
+}
+
+/* ---- Reusable pull quote ---- */
+.about-pullquote{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:26px;
+  line-height:1.6;
+  color:var(--indigo);
+  border-left:2px solid var(--accent);
+  padding-left:var(--space-m);
+  margin:var(--space-l) 0;
+}
+@media (max-width:767px){
+  .about-pullquote{font-size:21px;}
+}
+
+/* ---- 3. Steps ---- */
+.about-steps{
+  display:flex;
+  flex-wrap:wrap;
+  gap:var(--space-m);
+}
+.about-step{
+  flex:1 1 220px;
+}
+.about-step .about-step-num{
+  font-family:var(--font-serif);
+  font-size:13px;
+  color:var(--accent);
+  letter-spacing:0.1em;
+  margin-bottom:8px;
+}
+.about-step .about-step-title{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:17px;
+  color:var(--text-primary);
+  margin-bottom:6px;
+}
+.about-step .about-step-desc{
+  font-size:14px;
+  color:var(--text-secondary);
+  line-height:1.7;
+}
+
+/* ---- Philosophy prose ---- */
+.about-prose p{
+  margin:0 0 var(--space-m);
+  color:var(--text-primary);
+}
+.about-prose strong{font-weight:600; color:var(--indigo);}
+
+/* ---- Fit list (short lines, generous whitespace) ---- */
+.about-fit-list{
+  display:flex;
+  flex-direction:column;
+  gap:var(--space-m);
+}
+.about-fit-list p{
+  font-size:var(--text-body-lg);
+  color:var(--text-primary);
+  margin:0;
+}
+.about-fit-close{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:20px;
+  color:var(--indigo);
+  margin-top:var(--space-m);
+}
+
+/* ---- 6. Story split (image + text) ---- */
+.about-split{
+  display:flex;
+  gap:var(--space-l);
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+.about-split-image{
+  flex:1 1 260px;
+  max-width:340px;
+}
+.about-split-image img{width:100%; height:auto; display:block;}
+.about-split-text{
+  flex:1 1 320px;
+}
+.about-split-text p{margin:0 0 var(--space-m); color:var(--text-primary);}
+
+/* ---- 7. Service cards ---- */
+.about-services{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap:var(--space-l) var(--space-m);
+}
+@media (max-width:640px){
+  .about-services{grid-template-columns:1fr;}
+}
+.about-service-card .about-service-title{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:18px;
+  color:var(--indigo);
+  margin-bottom:8px;
+}
+.about-service-card .about-service-desc{
+  font-size:14px;
+  color:var(--text-secondary);
+  line-height:1.7;
+  margin-bottom:14px;
+}
+
+/* ---- 9. Resume (reuse details/summary pattern) ---- */
+.about-resume ul{
+  list-style:none;
+  padding:0;
+  margin:0 0 var(--space-s);
+}
+.about-resume ul li{
+  padding:8px 0;
+  border-bottom:1px solid var(--linen);
+  color:var(--text-primary);
+  font-size:14.5px;
+}
+.about-resume details{
+  margin-top:var(--space-s);
+}
+.about-resume summary{
+  cursor:pointer;
+  color:var(--indigo);
+  font-weight:500;
+  font-size:14px;
+}
+.about-resume details ul{margin-top:var(--space-s);}
+
+/* ---- 10. Footer CTA ---- */
+.about-footer{
+  text-align:center;
+  padding:var(--space-l) 0 0;
+}
+.about-footer blockquote{
+  font-size:15px;
+  color:var(--text-secondary);
+  max-width:440px;
+  margin:0 auto var(--space-m);
+  line-height:1.85;
+}
+.about-footer-buttons{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:var(--space-m);
+}
+.about-footer-email{
+  font-size:13px;
+  color:var(--text-secondary);
+  margin-bottom:var(--space-l);
+}
+.about-footer-signoff{
+  font-family:var(--font-serif);
+  font-size:16px;
+  color:var(--indigo);
+  line-height:1.8;
 }
