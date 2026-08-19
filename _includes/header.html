@@ -1,7 +1,10 @@
 <header class="site-header">
-  <div class="brand-en">Sherry's Aromatherapy Notes</div>
+  <div class="brand-en">Sherry's Aromatherapy POV</div>
   <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
   <div class="tagline">{{ site.description }}</div>
+</header>
+
+<div class="nav-sticky">
   <nav class="site-nav">
     {% for item in site.nav %}
       <a href="{{ item.url | relative_url }}"
@@ -10,4 +13,4 @@
     <a href="{{ '/search/' | relative_url }}"
        class="{% if page.url == '/search/' %}active{% endif %}">🔍 搜尋</a>
   </nav>
-</header>
+</div>

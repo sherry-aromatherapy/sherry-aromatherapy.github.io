@@ -1,8 +1,8 @@
 :root{
-  --parchment:#FBF0EF;
-  --linen:#F1DCDA;
+  --parchment:#FDFAF9;
+  --linen:#F4E8E6;
   --clay:#E8B9B4;
-  --clay-deep:#D89791;
+  --clay-deep:#C97F79;
   --sage:#93A67F;
   --bark:#5C4A45;
   --mist:#BFA6A2;
@@ -15,8 +15,8 @@ html,body{margin:0;padding:0;}
 body{
   background:var(--parchment);
   background-image:
-    radial-gradient(circle at 8% 6%, rgba(147,166,127,0.09), transparent 40%),
-    radial-gradient(circle at 92% 94%, rgba(232,185,180,0.13), transparent 45%);
+    radial-gradient(circle at 8% 6%, rgba(147,166,127,0.05), transparent 40%),
+    radial-gradient(circle at 92% 94%, rgba(232,185,180,0.07), transparent 45%);
   color:var(--bark);
   font-family:'Chiron Hei HK WS','Noto Sans TC',sans-serif;
   font-weight:400;
@@ -38,15 +38,13 @@ a:hover{text-decoration:underline;}
 header.site-header{
   padding:28px 20px 18px;
   text-align:center;
-  border-bottom:1px solid var(--linen);
-  margin-bottom:36px;
 }
 header.site-header .brand-en{
   font-size:12px;
   letter-spacing:0.28em;
   color:var(--clay-deep);
   text-transform:uppercase;
-  font-weight:300;
+  font-weight:600;
 }
 header.site-header h1{
   font-size:24px;
@@ -59,14 +57,27 @@ header.site-header .tagline{
   font-size:13px;
   color:var(--mist);
   font-weight:300;
-  margin-bottom:18px;
+  margin-bottom:8px;
 }
 
+.nav-sticky{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(253,250,249,0.92);
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--linen);
+  padding:12px 20px;
+  margin-bottom:36px;
+}
 nav.site-nav{
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
   gap:6px 4px;
+  max-width:720px;
+  margin:0 auto;
 }
 nav.site-nav a{
   font-size:13px;
@@ -78,7 +89,7 @@ nav.site-nav a{
   transition:all .2s;
 }
 nav.site-nav a:hover{
-  background:rgba(255,255,255,0.6);
+  background:rgba(255,255,255,0.8);
   border-color:var(--linen);
   text-decoration:none;
 }
@@ -384,4 +395,6 @@ footer.site-footer .credit-en{
 @media (max-width:480px){
   header.site-header h1{font-size:21px;}
   article.post .post-header h1{font-size:22px;}
+  .nav-sticky{padding:8px 12px;}
+  nav.site-nav a{font-size:12px; padding:6px 10px;}
 }
