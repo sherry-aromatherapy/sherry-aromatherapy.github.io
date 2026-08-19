@@ -32,6 +32,7 @@ layout: default
 </div>
 
 {% assign excerpt_sentence_count = 3 %}
+<div class="home-section">
 <div class="section-heading">最新文章</div>
 {% for post in site.posts limit: 5 %}
 {% assign excerpt_text = post.excerpt | strip_html | strip_newlines %}
@@ -51,6 +52,7 @@ layout: default
 
 <div style="text-align:center; margin-top:30px;">
   <a href="{{ '/archive/' | relative_url }}" style="font-size:13px; font-weight:500;">查看所有文章 →</a>
+</div>
 </div>
 
 <div class="home-section">
@@ -72,13 +74,13 @@ layout: default
   <a href="{{ '/sherrybooks/' | relative_url }}" class="section-more">看全部的書 →</a>
 </div>
 
-<div class="home-section">
+<div class="home-section home-section--about">
   <div class="section-heading">關於雪莉</div>
   <p class="about-teaser">如果我會發光，那是因為，我看過黑暗。<br>哈囉～你好，我是雪莉，深耕芳香療法、巴赫花精與心靈圖卡 15 年，曾在法國有機芳療品牌擔任產品選購顧問十年。</p>
   <a href="{{ '/info/' | relative_url }}" class="section-more">看完整的故事 →</a>
 </div>
 
-<div class="home-section subscribe-section">
+<div class="home-section home-section--subscribe subscribe-section">
   <div class="section-heading">收到最新內容</div>
   <p class="subscribe-text">我不固定更新，但有新文章、Podcast、課程或新書時，會透過 Email 通知你。</p>
   <a href="https://forms.gle/tTikL2YGSpqny3Sa9" class="hero-btn hero-btn-primary" target="_blank" rel="noopener">免費訂閱最新消息</a>

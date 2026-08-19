@@ -51,6 +51,10 @@
   --space-3xl:96px;
   --space-4xl:128px;
 
+  /* ---- Section gap tokens, desktop (§07 revised) ---- */
+  --section-gap:88px;       /* general section: 80-96px */
+  --section-gap-hero:108px; /* hero / large block: 96-120px */
+
   /* ---- Border radius scale (§35) ---- */
   --radius-sm:4px;
   --radius-btn:8px;
@@ -65,6 +69,13 @@
   --container-article:720px;
 }
 
+@media (max-width:1023px) and (min-width:768px){
+  :root{
+    --section-gap:72px;      /* tablet general: 64-80px */
+    --section-gap-hero:72px; /* tablet hero: use same as general */
+  }
+}
+
 @media (max-width:767px){
   :root{
     --text-h1:36px;
@@ -72,6 +83,9 @@
     --text-h3:23px;
     --text-body:17px;
     --text-small:14px;
+    --section-gap:52px;         /* mobile general: 48-56px */
+    --section-gap-important:64px; /* mobile important section */
+    --section-gap-hero:72px;    /* mobile hero: 64-80px */
   }
 }
 
@@ -91,7 +105,7 @@ body{
   min-height:100vh;
 }
 
-a{color:var(--indigo); text-decoration:none;}
+a{color:var(--clay-deep); text-decoration:none;}
 a:hover{text-decoration:underline;}
 
 .wrap{
@@ -266,7 +280,7 @@ nav.site-nav a.nav-cta:hover{
   color:var(--sage);
   background:transparent;
   border:1px solid var(--chip-border);
-  border-radius:var(--radius-tag);
+  border-radius:999px;
   padding:2px 10px;
   margin:2px 4px 2px 0;
   font-weight:500;
@@ -281,7 +295,7 @@ nav.site-nav a.nav-cta:hover{
   max-width:1040px;
   box-sizing:border-box;
   padding:8px 20px 48px;
-  margin-bottom:8px;
+  margin-bottom:64px;
   border-bottom:1px solid var(--linen);
   display:flex;
   align-items:center;
@@ -392,9 +406,11 @@ nav.site-nav a.nav-cta:hover{
 
 /* ---------- Home page sections ---------- */
 .home-section{
-  margin-top:68px;
+  margin-top:56px;
   padding-top:8px;
 }
+.home-section--about{margin-top:64px;}
+.home-section--subscribe{margin-top:48px;}
 .book-list{
   display:flex;
   flex-direction:column;
