@@ -15,7 +15,7 @@ kramdown:
   syntax_highlighter: rouge
   footnote_nr: 1
 
-permalink: /:year/:month/:day/:title/
+permalink: /:slug/
 
 collections:
   pages:
