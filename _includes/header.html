@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="brand-en">Sherry's Aromatherapy Notes</div>
+  <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+  <div class="tagline">{{ site.description }}</div>
+  <nav class="site-nav">
+    {% for item in site.nav %}
+      <a href="{{ item.url | relative_url }}"
+         class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+    {% endfor %}
+    <button type="button" class="search-toggle" id="searchToggle">🔍 搜尋</button>
+  </nav>
+</header>
+
+<div class="search-panel" id="searchPanel">
+  <input type="text" id="searchInput" placeholder="輸入關鍵字搜尋文章…" autocomplete="off">
+  <div class="search-results" id="searchResults"></div>
+</div>
