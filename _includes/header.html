@@ -1,13 +1,18 @@
 <div class="nav-sticky">
   <nav class="site-nav">
     <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title }}</a>
-    {% for item in site.nav %}
-      <a href="{{ item.url | relative_url }}"
-         class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
-    {% endfor %}
-    <a href="{{ '/custom-aroma-session/' | relative_url }}" class="nav-cta">一對一芳療</a>
+
+    <div class="nav-links" id="navLinks">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}"
+           class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
+      {% endfor %}
+      <a href="{{ '/custom-aroma-session/' | relative_url }}" class="nav-cta">一對一芳療</a>
+    </div>
+
     <a href="{{ '/search/' | relative_url }}"
        class="nav-search-icon {% if page.url == '/search/' %}active{% endif %}"
        aria-label="搜尋">🔍</a>
+    <button type="button" class="nav-menu-toggle" id="navMenuToggle" aria-label="選單" aria-expanded="false">☰</button>
   </nav>
 </div>
