@@ -5,7 +5,7 @@ permalink: /info/
 ---
 
 <div class="about-section about-hero">
-  <h1>我不太教大家背答案，我比較在意：你知不知道怎麼判斷。</h1>
+  <h1>我不太教大家背答案，我比較在意：<br>你知不知道怎麼判斷。</h1>
   <p>嗨，我是雪莉。曾在法國芳療品牌工作十年，從門市服務、客服做到講師與內容編輯。現在透過寫作、出版、課程與一對一，分享精油、植物油與芳療安全知識——比起給你一份答案，我更在意這個答案是在什麼條件下成立的。</p>
 </div>
 
@@ -29,7 +29,7 @@ permalink: /info/
 </div>
 
 <div class="about-section">
-  <div class="section-heading">我怎麼處理一個芳療問題？</div>
+  <div class="about-heading">我怎麼處理一個芳療問題？</div>
   <div class="about-steps">
     <div class="about-step">
       <div class="about-step-num">01</div>
@@ -55,7 +55,7 @@ permalink: /info/
 </div>
 
 <div class="about-section">
-  <div class="section-heading">我希望你最後帶走的，是能繼續使用的判斷力</div>
+  <div class="about-heading">我希望你最後帶走的，是能繼續使用的判斷力</div>
   <div class="about-prose">
     <p>我當然會告訴你我查到什麼、怎麼理解，也會在需要時給出明確建議。但我更希望的是：下一次遇到一個我沒有講過的問題，你仍然知道可以從哪裡開始。</p>
     <p>所以在我的書和課程裡，你可能會發現，我常常不只告訴你「這瓶油適合什麼」，我也會繼續問：為什麼？它和另一瓶看起來很像的油差在哪裡？如果你的需求彼此衝突，要怎麼取捨？</p>
@@ -65,7 +65,7 @@ permalink: /info/
 </div>
 
 <div class="about-section">
-  <div class="section-heading">我重視資料，也很在意使用知識的那個人</div>
+  <div class="about-heading">我重視資料，也很在意使用知識的那個人</div>
   <div class="about-fit-list">
     <p>同一個「正確答案」，放到不同人的身體、生活節奏、使用習慣與需求裡，可能會得到完全不同的結果。</p>
     <p>所以我很少把人當成一個等待套公式的案例。你不必因為某個老師說「應該這樣」，就忽略自己的經驗；也不需要因為「每個人都不同」，最後什麼都無法判斷。</p>
@@ -74,7 +74,7 @@ permalink: /info/
 </div>
 
 <div class="about-section">
-  <div class="section-heading">我怎麼走到這裡</div>
+  <div class="about-heading">我怎麼走到這裡</div>
   <div class="about-split">
     <div class="about-split-image">
       <img src="{{ '/assets/images/site/hero.jpg' | relative_url }}" alt="雪莉的書桌，精油瓶與手繪筆記">
@@ -88,33 +88,33 @@ permalink: /info/
 </div>
 
 <div class="about-section">
-  <div class="section-heading">現在，我主要在做這些事</div>
+  <div class="about-heading">現在，我主要在做這些事</div>
   <div class="about-services">
     <div class="about-service-card">
       <div class="about-service-title">寫作與出版</div>
       <div class="about-service-desc">芳療知識、精油濃度、植物油與判斷方法的寫作與出版。</div>
-      <a href="{{ '/sherrybooks/' | relative_url }}" class="section-more">看看書籍 →</a>
+      <a href="{{ '/sherrybooks/' | relative_url }}" class="section-more">→ 看看書籍</a>
     </div>
     <div class="about-service-card">
       <div class="about-service-title">課程與工作坊</div>
       <div class="about-service-desc">透過聞、比較、操作與討論，把知識放回使用情境。</div>
-      <a href="{{ '/start-here/' | relative_url }}" class="section-more">從這裡開始 →</a>
+      <a href="{{ '/start-here/' | relative_url }}" class="section-more">→ 從這裡開始</a>
     </div>
     <div class="about-service-card">
       <div class="about-service-title">主題 Q&amp;A</div>
       <div class="about-service-desc">集中拆解容易得到不同答案的芳療問題。</div>
-      <a href="{{ '/archive/' | relative_url }}" class="section-more">看看文章 →</a>
+      <a href="{{ '/archive/' | relative_url }}" class="section-more">→ 看看文章</a>
     </div>
     <div class="about-service-card">
       <div class="about-service-title">一對一工作</div>
       <div class="about-service-desc">處理更個人、更複雜，或希望深入建立理解的主題。</div>
-      <a href="{{ '/custom-aroma-session/' | relative_url }}" class="section-more">了解一對一 →</a>
+      <a href="{{ '/custom-aroma-session/' | relative_url }}" class="section-more">→ 了解一對一</a>
     </div>
   </div>
 </div>
 
 <div class="about-section">
-  <div class="section-heading">也許你會喜歡待在這裡，如果……</div>
+  <div class="about-heading">也許你會喜歡待在這裡，如果……</div>
   <div class="about-fit-list">
     <p>你查資料時常常查出更多疑問。</p>
     <p>你不喜歡「老師說了算」。</p>
@@ -125,7 +125,7 @@ permalink: /info/
 </div>
 
 <div class="about-section about-resume">
-  <div class="section-heading">關於我的一些經歷</div>
+  <div class="about-heading">關於我的一些經歷</div>
   <ul>
     <li>法國有機芳療品牌工作 10 年</li>
     <li>芳療與身心相關課程教學 1,200+ 人次</li>
@@ -145,7 +145,7 @@ permalink: /info/
 </div>
 
 <div class="about-section about-footer">
-  <div class="section-heading">想繼續認識我？</div>
+  <div class="about-heading">想繼續認識我？</div>
   <blockquote>我通常會出現在 Instagram 和 Threads。有時候談精油，有時候談植物油，有時候拆一個芳療說法，也有時候只是記錄那些讓我覺得「嗯？等一下」的生活片段。</blockquote>
   <div class="about-footer-buttons">
     <a href="https://www.instagram.com/sherry.aromatherapy/" class="hero-btn hero-btn-primary" target="_blank" rel="noopener">Instagram</a>

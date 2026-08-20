@@ -722,6 +722,18 @@ article.about{
   font-size:var(--text-body);
   line-height:1.85;
 }
+.about-heading{
+  font-family:var(--font-serif);
+  font-weight:700;
+  font-size:23px;
+  letter-spacing:0.02em;
+  color:var(--indigo);
+  line-height:1.5;
+  margin:0 0 22px;
+}
+@media (max-width:767px){
+  .about-heading{font-size:20px;}
+}
 .about-section{
   margin-top:var(--section-gap);
 }
@@ -739,12 +751,15 @@ article.about{
 .about-hero h1{
   font-family:var(--font-serif);
   font-weight:700;
-  font-size:var(--text-h1);
+  font-size:38px;
   letter-spacing:0.03em;
-  line-height:1.4;
+  line-height:1.55;
   color:var(--indigo);
-  max-width:640px;
+  max-width:700px;
   margin:0 auto var(--space-m);
+}
+@media (max-width:767px){
+  .about-hero h1{font-size:26px;}
 }
 .about-hero p{
   font-size:var(--text-body-lg);
@@ -780,7 +795,6 @@ article.about{
 .about-lead{
   font-size:var(--text-body-lg);
   color:var(--text-primary);
-  max-width:520px;
   margin:var(--space-l) 0 0;
   line-height:1.85;
 }
@@ -892,8 +906,9 @@ article.about{
   font-size:14px;
   color:var(--text-secondary);
   line-height:1.7;
-  margin-bottom:14px;
+  margin-bottom:4px;
 }
+.about-service-card .section-more{margin-top:4px;}
 
 /* ---- 9. Resume (reuse details/summary pattern) ---- */
 .about-resume ul{
