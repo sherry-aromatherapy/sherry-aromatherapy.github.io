@@ -437,7 +437,7 @@ nav.site-nav a.nav-cta:hover{
   font-size:17px;
   font-weight:700;
   letter-spacing:0.04em;
-  color:var(--clay-deep);
+  color:var(--indigo);
   margin-bottom:4px;
 }
 .book-item:hover .book-title{color:var(--indigo-deep);}
@@ -631,6 +631,16 @@ article.page .page-content h3{
   margin:32px 0 12px;
   color:var(--bark);
   line-height:1.5;
+}
+article.page .page-content h2 a,
+article.page .page-content h3 a{
+  color:var(--indigo-deep);
+  border-bottom:none;
+}
+article.page .page-content h2 a:hover,
+article.page .page-content h3 a:hover{
+  color:var(--indigo);
+  text-decoration:underline;
 }
 article.page .page-content h1 strong,
 article.page .page-content h2 strong,
