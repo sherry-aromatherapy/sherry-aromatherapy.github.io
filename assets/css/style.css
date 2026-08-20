@@ -628,20 +628,9 @@ article.page .page-content h2:first-child{margin-top:0;}
 article.page .page-content h3{
   font-size:18px;
   font-weight:600;
-  margin:32px 0 12px;
+  margin:56px 0 12px;
   color:var(--bark);
   line-height:1.5;
-}
-article.page .page-content h2 a,
-article.page .page-content h3 a{
-  color:var(--indigo);
-  border-bottom:1.5px solid var(--indigo);
-  padding-bottom:1px;
-}
-article.page .page-content h2 a:hover,
-article.page .page-content h3 a:hover{
-  color:var(--indigo-deep);
-  border-bottom-color:var(--indigo-deep);
 }
 article.page .page-content h1 strong,
 article.page .page-content h2 strong,
