@@ -634,13 +634,14 @@ article.page .page-content h3{
 }
 article.page .page-content h2 a,
 article.page .page-content h3 a{
-  color:var(--indigo-deep);
-  border-bottom:none;
+  color:var(--indigo);
+  border-bottom:1.5px solid var(--indigo);
+  padding-bottom:1px;
 }
 article.page .page-content h2 a:hover,
 article.page .page-content h3 a:hover{
-  color:var(--indigo);
-  text-decoration:underline;
+  color:var(--indigo-deep);
+  border-bottom-color:var(--indigo-deep);
 }
 article.page .page-content h1 strong,
 article.page .page-content h2 strong,
