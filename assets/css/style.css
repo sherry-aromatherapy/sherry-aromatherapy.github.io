@@ -298,6 +298,40 @@ nav.site-nav a.nav-cta:hover{
   font-weight:500;
 }
 
+/* ---------- Archive category nav ---------- */
+.archive-cat-nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:0 0 40px;
+  padding-bottom:32px;
+  border-bottom:1px solid var(--linen);
+}
+.archive-cat-nav .cat-pill{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:14px;
+  font-weight:600;
+  color:var(--indigo-deep);
+  background:var(--surface);
+  border:1px solid var(--chip-border);
+  border-radius:999px;
+  padding:7px 16px;
+}
+.archive-cat-nav .cat-pill:hover{
+  background:var(--indigo-deep);
+  border-color:var(--indigo-deep);
+  color:#fff;
+  text-decoration:none;
+}
+.archive-cat-nav .cat-pill:hover .cat-count{color:#fff;}
+.archive-cat-nav .cat-count{
+  font-size:11.5px;
+  font-weight:500;
+  color:var(--mist);
+}
+
 /* ---------- Editorial hero (homepage) ---------- */
 .hero{
   position:relative;
@@ -642,7 +676,8 @@ article.page .page-content a{
   border-bottom:1px solid var(--clay);
 }
 article.page .page-content .post-list-item h2 a,
-article.page .page-content .post-list-item .cats a{
+article.page .page-content .post-list-item .cats a,
+article.page .page-content .archive-cat-nav a{
   border-bottom:none;
 }
 article.page .page-content ul, article.page .page-content ol{

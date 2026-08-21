@@ -1,10 +1,7 @@
 ---
 title: "《精油濃度安心使用大全》"
-date: 2026-01-22 18:10:28
-categories: ["芳療學習與書單"]
-tags: []
-layout: post
-slug: "eo-dilution-ebook"
+layout: page
+permalink: /eo-dilution-ebook/
 ---
 
 **使用適當的精油濃度，是配方有效的首要條件！**
@@ -48,7 +45,7 @@ slug: "eo-dilution-ebook"
 
 ---
 
-# **📚 這是一本怎麼樣的書？**
+## **📚 這是一本怎麼樣的書？**
 
 在我過去十年使用精油與教學的過程中，接觸過各種新手的疑問與卡關點。
 

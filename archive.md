@@ -4,6 +4,16 @@ title: "文章"
 permalink: /archive/
 ---
 
+{% assign sorted_categories = site.categories | sort %}
+{% if sorted_categories.size > 0 %}
+<div class="section-heading">文章分類</div>
+<div class="archive-cat-nav">
+  {% for cat in sorted_categories %}
+  <a href="?cat={{ cat[0] }}" class="cat-pill">{{ cat[0] }}<span class="cat-count">{{ cat[1].size }}</span></a>
+  {% endfor %}
+</div>
+{% endif %}
+
 <div id="archiveFilterNote" style="display:none; font-size:13px; color:var(--mist); margin-bottom:16px;"></div>
 
 {% assign excerpt_sentence_count = 2 %}
@@ -14,14 +24,13 @@ permalink: /archive/
 {% assign excerpt_text = post.excerpt | strip_html | strip_newlines %}
 {% assign sentences = excerpt_text | split: "。" %}
 {% assign preview = sentences | slice: 0, excerpt_sentence_count | join: "。" %}
-<div class="post-list-item" data-cats="{{ post.categories | join: ',' }}" data-tags="{{ post.tags | join: ',' }}">
+<div class="post-list-item" data-cats="{{ post.categories | join: ',' }}">
   <div class="date">{{ post.date | date: "%m月%d日" }}</div>
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   <div class="excerpt">{{ preview }}{% if sentences.size > excerpt_sentence_count %}。{% endif %}</div>
-  {% if post.categories.size > 0 or post.tags.size > 0 %}
+  {% if post.categories.size > 0 %}
   <div class="cats">
     {% for cat in post.categories %}<a href="?cat={{ cat }}">{{ cat }}</a>{% endfor %}
-    {% for tag in post.tags %}<a href="?tag={{ tag }}">#{{ tag }}</a>{% endfor %}
   </div>
   {% endif %}
 </div>
@@ -32,8 +41,7 @@ permalink: /archive/
 (function(){
   const params = new URLSearchParams(window.location.search);
   const cat = params.get('cat');
-  const tag = params.get('tag');
-  if (!cat && !tag) return;
+  if (!cat) return;
 
   const note = document.getElementById('archiveFilterNote');
   const items = document.querySelectorAll('.post-list-item');
@@ -41,8 +49,7 @@ permalink: /archive/
 
   items.forEach(item => {
     const cats = (item.getAttribute('data-cats') || '').split(',');
-    const tags = (item.getAttribute('data-tags') || '').split(',');
-    const match = (cat && cats.includes(cat)) || (tag && tags.includes(tag));
+    const match = cats.includes(cat);
     item.style.display = match ? '' : 'none';
     if (match) visibleCount++;
   });
@@ -58,7 +65,7 @@ permalink: /archive/
   });
 
   note.style.display = 'block';
-  note.textContent = `篩選：${cat ? cat : '#' + tag}（共 ${visibleCount} 篇，`;
+  note.textContent = `篩選：${cat}（共 ${visibleCount} 篇，`;
   const clearLink = document.createElement('a');
   clearLink.href = window.location.pathname;
   clearLink.textContent = '清除篩選';
