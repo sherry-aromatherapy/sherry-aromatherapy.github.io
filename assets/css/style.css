@@ -176,8 +176,10 @@ nav.site-nav a:hover{
   text-decoration:none;
 }
 nav.site-nav a.active{
-  background:var(--indigo);
-  color:var(--parchment);
+  background:var(--surface);
+  color:var(--indigo-deep);
+  font-weight:700;
+  border-color:var(--chip-border);
 }
 nav.site-nav a.nav-search-icon{
   margin-left:6px;
@@ -194,9 +196,10 @@ nav.site-nav a.nav-search-icon.active{
 nav.site-nav a.nav-cta{
   background:var(--indigo);
   color:var(--white);
-  font-weight:500;
+  font-weight:700;
   border-radius:8px;
   margin-left:8px;
+  box-shadow:0 2px 6px rgba(63,81,59,0.28);
 }
 nav.site-nav a.nav-cta:hover{
   background:var(--indigo-deep);
