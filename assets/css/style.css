@@ -260,10 +260,11 @@ nav.site-nav a.nav-cta:hover{
 
 /* ---------- Post list (home / archive) ---------- */
 .post-list-item{
-  padding:32px 0;
+  padding:20px 0;
   border-bottom:1px solid var(--linen);
 }
-.post-list-item:first-child{padding-top:0;}
+.post-list-item:first-child,
+.section-heading + .post-list-item{padding-top:0;}
 .post-list-item .date{
   font-size:12px;
   color:var(--mist);
@@ -421,7 +422,7 @@ nav.site-nav a.nav-cta:hover{
   color:var(--clay-deep);
   font-weight:700;
   letter-spacing:0.1em;
-  margin:0 0 18px;
+  margin:0 0 12px;
   text-transform:uppercase;
 }
 
@@ -686,6 +687,10 @@ article.page .page-content .archive-cat-nav a{
 article.page .page-content ul, article.page .page-content ol{
   margin:16px 0 24px;
   padding-left:26px;
+}
+article.page .page-content ul.list-tight,
+article.page .page-content ol.list-tight{
+  margin-bottom:10px;
 }
 article.page .page-content li{margin-bottom:9px;}
 article.page .page-content hr{
