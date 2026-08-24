@@ -4,7 +4,7 @@ layout: page
 permalink: /calculator/
 ---
 
-請輸入調配的成品總容量，與你想調配的精油濃度，就能即時得到本次需要加入的精油總滴數，不用登入、不用留資料。
+請輸入調配的成品總容量，與你想調配的精油濃度，填寫完成後就能即時獲得本次要加入的精油總滴數，不用登入、不用留資料。
 
 <div class="calc-box">
   <div class="calc-field">
@@ -63,7 +63,7 @@ permalink: /calculator/
   border:1px solid var(--linen);
   border-radius:12px;
   padding:28px 24px;
-  margin:32px 0;
+  margin:32px auto;
   max-width:460px;
 }
 .calc-field{margin-bottom:20px;}
@@ -122,3 +122,12 @@ permalink: /calculator/
 {: .list-tight}
 
 如果你還不確定不同使用情境該抓多少濃度、哪些精油刺激度較高、部位跟族群怎麼調整，可以參考[《精油濃度安心使用大全》](/eo-dilution-ebook/)，或直接看[精油安全與使用](/archive/?cat=精油安全與使用)分類裡的文章。
+
+---
+
+本頁面由「雪莉的芳療觀點」設計  
+官方網站｜[sherry-aromatherapy.github.io](/)  
+Instagram｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)  
+Threads｜[@sherry.aromatherapy](https://www.threads.com/@sherry.aromatherapy)
+
+芳療有問題，歡迎找雪莉～
