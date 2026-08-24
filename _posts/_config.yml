@@ -1,0 +1,50 @@
+title: "雪莉的芳療觀點"
+description: "芳療教育與自我覺察的書寫"
+author: "雪莉 Sherry"
+email: "sherry.aromatherapy@gmail.com"
+
+# Update this once the site has a home on GitHub Pages, e.g.:
+# url: "https://sherry-aromatherapy.github.io"
+# baseurl: "/blog"
+url: ""
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  footnote_nr: 1
+
+permalink: /:slug/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+nav:
+  - title: "從這裡開始"
+    url: "/start-here/"
+  - title: "文章"
+    url: "/archive/"
+  - title: "我的書"
+    url: "/sherrybooks/"
+  - title: "關於雪莉"
+    url: "/info/"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
