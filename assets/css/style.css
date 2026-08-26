@@ -669,6 +669,7 @@ article.page .page-content h2{
 }
 article.page .page-content h2:first-child{margin-top:0;}
 article.page .page-content h3{
+  font-family:var(--font-serif);
   font-size:20px;
   font-weight:700;
   margin:56px 0 12px;
@@ -677,6 +678,7 @@ article.page .page-content h3{
 }
 article.page .page-content .book-publisher{
   display:inline-block;
+  font-family:var(--font-serif);
   font-size:14px;
   color:var(--indigo);
   margin:-4px 0 20px;
