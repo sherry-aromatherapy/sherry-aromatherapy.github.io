@@ -858,6 +858,7 @@ article.about{
   max-width:560px;
   margin:0 auto;
   line-height:1.85;
+  text-align:left;
 }
 
 /* ---- Trust stats bar ---- */
