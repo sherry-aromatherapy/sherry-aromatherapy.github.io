@@ -134,16 +134,12 @@ nav.site-nav{
 }
 .site-logo{
   font-family:var(--font-serif);
-  font-size:22px;
+  font-size:24px;
   font-weight:700;
   letter-spacing:0.10em;
   color:var(--indigo);
   margin-right:auto;
   padding:7px 8px 7px 0;
-  transition:color 0.15s ease;
-}
-.site-logo:hover{
-  color:var(--indigo-deep);
 }
 .nav-links{
   display:flex;
@@ -674,17 +670,15 @@ article.page .page-content h2{
 article.page .page-content h2:first-child{margin-top:0;}
 article.page .page-content h3{
   font-size:20px;
-  font-weight:600;
+  font-weight:700;
   margin:56px 0 12px;
   color:var(--bark);
   line-height:1.5;
 }
 article.page .page-content .book-publisher{
   display:inline-block;
-  font-family:var(--font-serif);
   font-size:14px;
-  font-style:italic;
-  color:var(--clay-deep);
+  color:var(--indigo);
   margin:-4px 0 20px;
 }
 article.page .page-content h1 strong,
