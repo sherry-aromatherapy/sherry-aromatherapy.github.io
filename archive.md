@@ -4,6 +4,8 @@ title: "文章"
 permalink: /archive/
 ---
 
+<div class="archive-total-count">目前共 {{ site.posts.size }} 篇文章</div>
+
 {% assign sorted_categories = site.categories | sort %}
 {% if sorted_categories.size > 0 %}
 <div class="section-heading">文章分類</div>

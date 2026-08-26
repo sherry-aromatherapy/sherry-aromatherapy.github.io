@@ -417,6 +417,11 @@ nav.site-nav a.nav-cta:hover{
   display:block;
 }
 
+.archive-total-count{
+  font-size:14px;
+  color:var(--mist);
+  margin:-8px 0 24px;
+}
 .section-heading{
   font-size:13px;
   color:var(--clay-deep);
