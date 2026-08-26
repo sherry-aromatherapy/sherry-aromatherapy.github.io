@@ -137,14 +137,14 @@ nav.site-nav .site-logo{
   font-size:20px;
   font-weight:700;
   letter-spacing:0.10em;
-  color:var(--indigo);
+  color:var(--accent);
   margin-right:auto;
   padding:7px 8px 7px 0;
 }
 nav.site-nav .site-logo:hover{
   background:none;
   border-color:transparent;
-  color:var(--indigo);
+  color:var(--accent);
 }
 .nav-links{
   display:flex;

@@ -5,8 +5,8 @@ permalink: /info/
 ---
 
 <div class="about-section about-hero">
-  <h1>嗨，我是雪莉，一個很喜歡追問「為什麼」的芳療工作者。</h1>
-  <p>我做的事情，主要是芳療知識的普及。我希望讓更多人知道，怎麼安全地使用精油，怎麼看懂產品之間真正的差異，也能從自己的生活需求出發，選擇適合自己的產品。</p>
+  <h1>哈囉你好～我是雪莉！<br>一個很喜歡追問<br>「為什麼」的芳療工作者。</h1>
+  <p>我希望讓更多人知道，怎麼安全地使用精油，怎麼看懂產品之間真正的差異，也能從自己的生活需求出發，選擇適合自己的產品。</p>
   <p>比起直接告訴你「哪一瓶最好」，我更在意的是把問題想清楚：不同答案為什麼會出現？差異到底在哪裡？放回你的生活裡，又該怎麼判斷？</p>
 </div>
 
@@ -20,8 +20,8 @@ permalink: /info/
     <div class="about-stat-label">芳療與相關領域學習及實務</div>
   </div>
   <div class="about-stat">
-    <div class="about-stat-number">1 本</div>
-    <div class="about-stat-label">著有《生活裡的芳療小百科》</div>
+    <div class="about-stat-number">3 本書</div>
+    <div class="about-stat-label">著有《生活裡的芳療小百科》等</div>
   </div>
   <div class="about-stat">
     <div class="about-stat-number">1,200+ 人次</div>
