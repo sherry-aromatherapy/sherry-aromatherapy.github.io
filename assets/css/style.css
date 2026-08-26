@@ -134,12 +134,16 @@ nav.site-nav{
 }
 .site-logo{
   font-family:var(--font-serif);
-  font-size:18px;
+  font-size:22px;
   font-weight:700;
   letter-spacing:0.10em;
   color:var(--indigo);
   margin-right:auto;
   padding:7px 8px 7px 0;
+  transition:color 0.15s ease;
+}
+.site-logo:hover{
+  color:var(--indigo-deep);
 }
 .nav-links{
   display:flex;
@@ -675,6 +679,14 @@ article.page .page-content h3{
   color:var(--bark);
   line-height:1.5;
 }
+article.page .page-content .book-publisher{
+  display:inline-block;
+  font-family:var(--font-serif);
+  font-size:14px;
+  font-style:italic;
+  color:var(--clay-deep);
+  margin:-4px 0 20px;
+}
 article.page .page-content h1 strong,
 article.page .page-content h2 strong,
 article.page .page-content h3 strong{
@@ -752,7 +764,7 @@ footer.site-footer .credit-en{
   article.page h1{font-size:24px;}
   .nav-sticky{padding:8px 12px;}
   nav.site-nav a{font-size:12px; padding:6px 10px;}
-  .site-logo{font-size:15px;}
+  .site-logo{font-size:18px;}
   .hero{padding:8px 20px 36px; gap:24px;}
   .hero-text{max-width:100%;}
   .hero-image{max-width:100%;}
