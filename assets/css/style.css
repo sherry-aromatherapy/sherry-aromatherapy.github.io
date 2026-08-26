@@ -132,7 +132,7 @@ nav.site-nav{
   max-width:960px;
   margin:0 auto;
 }
-.site-logo{
+nav.site-nav .site-logo{
   font-family:var(--font-serif);
   font-size:28px;
   font-weight:700;
@@ -140,6 +140,11 @@ nav.site-nav{
   color:var(--indigo);
   margin-right:auto;
   padding:7px 8px 7px 0;
+}
+nav.site-nav .site-logo:hover{
+  background:none;
+  border-color:transparent;
+  color:var(--indigo);
 }
 .nav-links{
   display:flex;
@@ -672,6 +677,7 @@ article.page .page-content h3{
   font-family:var(--font-serif);
   font-size:20px;
   font-weight:700;
+  letter-spacing:0.08em;
   margin:56px 0 12px;
   color:var(--bark);
   line-height:1.5;
@@ -680,8 +686,10 @@ article.page .page-content .book-publisher{
   display:inline-block;
   font-family:var(--font-serif);
   font-size:14px;
+  letter-spacing:0.08em;
   color:var(--indigo);
   margin:-4px 0 20px;
+  padding-left:20px;
 }
 article.page .page-content h1 strong,
 article.page .page-content h2 strong,
@@ -718,6 +726,33 @@ footer.site-footer{
   text-align:center;
   margin-top:60px;
   padding:30px 20px 10px;
+}
+footer.site-footer .footer-links{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px 20px;
+  margin-bottom:24px;
+}
+footer.site-footer .footer-links a{
+  font-size:13px;
+  font-weight:500;
+  color:var(--bark);
+  letter-spacing:0.04em;
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+  transition:border-color .15s ease, color .15s ease;
+}
+footer.site-footer .footer-links a:hover{
+  color:var(--indigo);
+  border-color:var(--clay);
+}
+footer.site-footer .footer-links a.footer-support{
+  color:var(--indigo);
+  font-weight:700;
+}
+footer.site-footer .footer-links a.footer-support:hover{
+  color:var(--indigo-deep);
 }
 footer.site-footer a.credit{
   display:inline-block;
@@ -760,7 +795,7 @@ footer.site-footer .credit-en{
   article.page h1{font-size:24px;}
   .nav-sticky{padding:8px 12px;}
   nav.site-nav a{font-size:12px; padding:6px 10px;}
-  .site-logo{font-size:20px;}
+  nav.site-nav .site-logo{font-size:20px;}
   .hero{padding:8px 20px 36px; gap:24px;}
   .hero-text{max-width:100%;}
   .hero-image{max-width:100%;}
