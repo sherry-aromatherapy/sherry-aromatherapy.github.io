@@ -1063,10 +1063,12 @@ article.about{
 .about-split-image{
   flex:1 1 200px;
   max-width:260px;
+  order:2;
 }
 .about-split-image img{width:100%; height:auto; display:block;}
 .about-split-text{
   flex:1 1 320px;
+  order:1;
 }
 .about-split-text p{margin:0 0 var(--space-m); color:var(--text-primary);}
 
