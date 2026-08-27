@@ -1061,8 +1061,8 @@ article.about{
   flex-wrap:wrap;
 }
 .about-split-image{
-  flex:1 1 260px;
-  max-width:340px;
+  flex:1 1 200px;
+  max-width:260px;
 }
 .about-split-image img{width:100%; height:auto; display:block;}
 .about-split-text{
