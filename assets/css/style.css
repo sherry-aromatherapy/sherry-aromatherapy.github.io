@@ -1,16 +1,17 @@
 :root{
-  /* ---- Color System (design-system §02) ---- */
-  --primary:#556B4F;
-  --primary-dark:#3F513B;
-  --accent:#D89A91;
-  --accent-light:#F1E4DE;
+  /* ---- Color System (design-system §02) — 天竺葵 Geranium palette ---- */
+  --primary:#6E806A;
+  --primary-dark:#4D5E49;
+  --accent:#C98F9F;
+  --accent-deep:#B85E79;
+  --accent-light:#E8D6DA;
   --bg:#F7F3EE;
   --surface-color:#FFFDFC;
-  --text-primary:#4A403A;
-  --text-secondary:#786D65;
-  --border-color:#DED5CE;
-  --border-light:#E9E2DC;
-  --tag-border:#D8CCC5;
+  --text-primary:#403B37;
+  --text-secondary:#8A7F78;
+  --border-color:#DDD4CB;
+  --border-light:#EEE6DE;
+  --tag-border:#DDD4CB;
 
   /* ---- existing names kept for compatibility with current CSS ---- */
   --parchment:var(--bg);
@@ -18,9 +19,9 @@
   --surface:var(--accent-light);
   --linen:var(--border-light);
   --chip-border:var(--tag-border);
-  --clay:#E3B0A7;
+  --clay:#E8D6DA;
   --clay-deep:var(--accent);
-  --sage:#89947E;
+  --sage:#7C8E76;
   --bark:var(--text-primary);
   --mist:var(--text-secondary);
   --indigo:var(--primary);
