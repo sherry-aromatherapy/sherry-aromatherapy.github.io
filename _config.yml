@@ -41,6 +41,8 @@ nav:
     url: "/archive/"
   - title: "我的書"
     url: "/sherrybooks/"
+  - title: "小工具"
+    url: "/tools/"
   - title: "關於雪莉"
     url: "/info/"
 
