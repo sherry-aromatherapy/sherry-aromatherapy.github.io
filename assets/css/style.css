@@ -1,17 +1,16 @@
 :root{
   /* ---- Color System (design-system §02) ---- */
-  --primary:#6E806A;
-  --primary-dark:#4D5E49;
+  --primary:#556B4F;
+  --primary-dark:#3F513B;
   --accent:#D89A91;
-  --accent-deep:#8C2F52;
   --accent-light:#F1E4DE;
   --bg:#F7F3EE;
   --surface-color:#FFFDFC;
-  --text-primary:#403B37;
-  --text-secondary:#8A7F78;
-  --border-color:#DDD4CB;
-  --border-light:#EEE6DE;
-  --tag-border:#DDD4CB;
+  --text-primary:#4A403A;
+  --text-secondary:#786D65;
+  --border-color:#DED5CE;
+  --border-light:#E9E2DC;
+  --tag-border:#D8CCC5;
 
   /* ---- existing names kept for compatibility with current CSS ---- */
   --parchment:var(--bg);
@@ -21,7 +20,7 @@
   --chip-border:var(--tag-border);
   --clay:#E3B0A7;
   --clay-deep:var(--accent);
-  --sage:#7C8E76;
+  --sage:#89947E;
   --bark:var(--text-primary);
   --mist:var(--text-secondary);
   --indigo:var(--primary);
@@ -38,8 +37,7 @@
   --text-h3:25px;
   --text-h4:20px;
   --text-body-lg:19px;
-  --text-body:17px;
-  --text-small:14px;
+  --text-body:14px;
   --text-caption:13px;
 
   /* ---- Spacing scale, 8px system (§07) ---- */
@@ -138,14 +136,14 @@ nav.site-nav .site-logo{
   font-size:20px;
   font-weight:700;
   letter-spacing:0.10em;
-  color:var(--accent-deep);
+  color:var(--accent);
   margin-right:auto;
   padding:7px 8px 7px 0;
 }
 nav.site-nav .site-logo:hover{
   background:none;
   border-color:transparent;
-  color:var(--accent-deep);
+  color:var(--accent);
 }
 .nav-links{
   display:flex;
@@ -587,7 +585,7 @@ article.post .post-header h1{
 article.post .post-tags{margin-top:10px;}
 
 article.post .post-content{
-  font-size:17px;
+  font-size:14px;
   line-height:1.85;
 }
 article.post .post-content h2{
@@ -702,7 +700,7 @@ article.page h1{
   text-align:center;
 }
 article.page .page-content{
-  font-size:17px;
+  font-size:14px;
   line-height:1.85;
 }
 article.page .page-content h2{
@@ -1031,10 +1029,22 @@ article.about{
   gap:var(--space-m);
 }
 .about-fit-list p{
-  font-size:var(--text-body-lg);
+  font-size:var(--text-body);
   color:var(--text-primary);
   margin:0;
+  line-height:1.85;
 }
+.about-fit-list ul{
+  margin:0;
+  padding-left:22px;
+}
+.about-fit-list li{
+  font-size:var(--text-body);
+  color:var(--text-primary);
+  line-height:1.85;
+  margin-bottom:8px;
+}
+.about-fit-list li:last-child{margin-bottom:0;}
 .about-fit-close{
   font-family:var(--font-serif);
   font-weight:700;
