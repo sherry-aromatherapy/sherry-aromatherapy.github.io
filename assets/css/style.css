@@ -1,10 +1,10 @@
 :root{
-  /* ---- Color System (design-system §02) — 天竺葵 Geranium palette ---- */
+  /* ---- Color System (design-system §02) ---- */
   --primary:#6E806A;
   --primary-dark:#4D5E49;
-  --accent:#C98F9F;
-  --accent-deep:#B85E79;
-  --accent-light:#E8D6DA;
+  --accent:#D89A91;
+  --accent-deep:#A8433A;
+  --accent-light:#F1E4DE;
   --bg:#F7F3EE;
   --surface-color:#FFFDFC;
   --text-primary:#403B37;
@@ -19,7 +19,7 @@
   --surface:var(--accent-light);
   --linen:var(--border-light);
   --chip-border:var(--tag-border);
-  --clay:#E8D6DA;
+  --clay:#E3B0A7;
   --clay-deep:var(--accent);
   --sage:#7C8E76;
   --bark:var(--text-primary);
@@ -749,7 +749,7 @@ footer.site-footer .footer-links a:hover{
   border-color:var(--clay);
 }
 footer.site-footer .footer-links a.footer-support{
-  color:var(--indigo);
+  color:var(--accent-deep);
   font-weight:700;
 }
 footer.site-footer .footer-links a.footer-support:hover{
