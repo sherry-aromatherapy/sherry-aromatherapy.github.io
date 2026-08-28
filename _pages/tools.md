@@ -22,12 +22,12 @@ permalink: /tools/
   <a class="tool-card" href="/lenormand/">
     <div class="tool-card-icon">🔮</div>
     <div class="tool-card-title">雷諾曼抽牌</div>
-    <div class="tool-card-desc">線上抽雷諾曼卡牌，用具體的圖像帶出直覺的線索。</div>
+    <div class="tool-card-desc">用牌卡敲敲宇宙的門，看看有哪些自己沒察覺的線索。</div>
   </a>
 
   <a class="tool-card" href="/bach-flowers/">
     <div class="tool-card-icon">🌸</div>
-    <div class="tool-card-title">巴赫花精抽牌</div>
-    <div class="tool-card-desc">從 38 種花精中抽一張，回到當下情緒的一個提醒。</div>
+    <div class="tool-card-title">巴赫花精共時性抽牌</div>
+    <div class="tool-card-desc">沒有頭緒的時候，抽幾張花精看看共時性會帶來什麼方向。</div>
   </a>
 </div>
