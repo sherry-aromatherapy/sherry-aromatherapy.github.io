@@ -5,7 +5,7 @@ permalink: /info/
 ---
 
 <div class="about-section about-hero">
-  <h1>哈囉你好～我是雪莉，一個擅長釐清芳療裡模糊與混亂的知識工作者。</h1>
+  <h1>哈囉你好～我是雪莉！<br>一個擅長釐清芳療裡模糊與混亂的知識工作者</h1>
   <p>如果你已經看了很多芳療資料，卻還是常常不知道該相信誰、該怎麼選，我想做的，就是陪你把問題拆開來看。</p>
   <p>當不同答案彼此衝突、很多條件同時存在時，我會和你一起找出：現在真正需要考慮的是什麼？</p>
   <p>可能是安全條件、使用方式、你真正想處理的問題，也可能是兩個看起來差很多的產品，其實沒有差到會影響你的選擇。</p>
@@ -91,7 +91,7 @@ permalink: /info/
   <div class="about-heading">為什麼我會這樣工作？</div>
   <div class="about-split">
     <div class="about-split-image">
-      <img src="{{ '/assets/images/site/sherry-portrait.jpg' | relative_url }}" alt="雪莉">
+      <img src="{{ '/assets/images/site/sherry-portrait.png' | relative_url }}" alt="雪莉">
     </div>
     <div class="about-split-text">
       <p>我曾在法國芳療品牌工作十年，長期站在產品、知識和使用者中間。</p>
