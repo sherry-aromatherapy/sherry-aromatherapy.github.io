@@ -4,15 +4,20 @@ layout: about
 permalink: /info/
 ---
 
-<div class="about-section about-hero">
-  <h1>哈囉你好～我是雪莉！<br>一個擅長釐清芳療裡模糊與混亂的知識工作者</h1>
-  <p>如果你已經看了很多芳療資料，卻還是常常不知道該相信誰、該怎麼選，我想做的，就是陪你把問題拆開來看。</p>
-  <p>當不同答案彼此衝突、很多條件同時存在時，我會和你一起找出：現在真正需要考慮的是什麼？</p>
-  <p>可能是安全條件、使用方式、你真正想處理的問題，也可能是兩個看起來差很多的產品，其實沒有差到會影響你的選擇。</p>
-  <p>我希望最後，你更知道自己為什麼這樣選，而不只是記得「老師說這瓶比較好」。</p>
-  <div class="about-footer-buttons" style="margin-top:28px;">
-    <a href="{{ '/start-here/' | relative_url }}" class="hero-btn hero-btn-primary">從這裡開始</a>
-    <a href="{{ '/archive/' | relative_url }}" class="hero-btn hero-btn-secondary">看我的文章</a>
+<div class="about-section about-hero-split">
+  <div class="about-hero-split-text">
+    <h1>哈囉你好～我是雪莉！<br>一個擅長釐清芳療裡模糊與混亂的知識工作者</h1>
+    <p>如果你已經看了很多芳療資料，卻還是常常不知道該相信誰、該怎麼選，我想做的，就是陪你把問題拆開來看。</p>
+    <p>當不同答案彼此衝突、很多條件同時存在時，我會和你一起找出：現在真正需要考慮的是什麼？</p>
+    <p>可能是安全條件、使用方式、你真正想處理的問題，也可能是兩個看起來差很多的產品，其實沒有差到會影響你的選擇。</p>
+    <p>我希望最後，你更知道自己為什麼這樣選，而不只是記得「老師說這瓶比較好」。</p>
+    <div class="about-footer-buttons" style="justify-content:flex-start; margin-top:28px;">
+      <a href="{{ '/start-here/' | relative_url }}" class="hero-btn hero-btn-primary">從這裡開始</a>
+      <a href="{{ '/archive/' | relative_url }}" class="hero-btn hero-btn-secondary">看我的文章</a>
+    </div>
+  </div>
+  <div class="about-hero-split-image">
+    <img src="{{ '/assets/images/site/sherry-portrait.png' | relative_url }}" alt="雪莉">
   </div>
 </div>
 
@@ -44,10 +49,7 @@ permalink: /info/
     <p>我能做的，比較像是在你第一次準備自由行的時候，陪你一起把事情整理清楚。我會跟你分享哪些安全原則要先知道、哪些條件會影響選擇，也會告訴你我是怎麼判斷的，讓你少一點反覆搜尋和猜測。</p>
     <p>可是最後真的走出去、使用、觀察、調整的，還是你自己。</p>
     <p>等你真的走過一次之後，很多原本看起來很複雜的事情，下一次就會變得比較熟悉。你也會慢慢知道自己喜歡什麼、哪些資訊對自己有用、遇到新的情況可以從哪裡開始想。</p>
-    <p><strong>我想陪大家走的，大概就是這一段：從「我看過很多，可是真的要自己來還是有點怕」，慢慢走到「喔，我知道自己可以怎麼開始了」。</strong></p>
-  </div>
-  <div class="about-quote-card">
-    <p>「其實你手邊已經有可以用的東西了。」</p>
+    <p style="font-weight:600; color:var(--text-primary);">我想陪大家走的，大概就是這一段：從「我看過很多，可是真的要自己來還是有點怕」，慢慢走到「喔，我知道自己可以怎麼開始了」。</p>
   </div>
 </div>
 
@@ -92,7 +94,7 @@ permalink: /info/
   <div class="about-heading">為什麼我會這樣工作？</div>
   <div class="about-split">
     <div class="about-split-image">
-      <img src="{{ '/assets/images/site/sherry-portrait.png' | relative_url }}" alt="雪莉">
+      <img src="{{ '/assets/images/site/sherry-notes.png' | relative_url }}" alt="雪莉手寫的芳療自學筆記">
     </div>
     <div class="about-split-text">
       <p>我曾在法國芳療品牌工作十年，長期站在產品、知識和使用者中間。</p>
@@ -150,9 +152,9 @@ permalink: /info/
       <a href="{{ '/sherrybooks/' | relative_url }}" class="section-more">→ 看我的書籍與文章</a>
     </div>
     <div class="about-service-card">
-      <div class="about-service-title">課程與工作坊</div>
-      <div class="about-service-desc">如果你喜歡有人帶著理解，也想真的聞、比較、操作，可以看看目前的課程與工作坊。</div>
-      <a href="{{ '/start-here/' | relative_url }}" class="section-more">→ 看目前的課程與活動</a>
+      <div class="about-service-title">一對一芳療</div>
+      <div class="about-service-desc">如果你的情況比較複雜，或者有一個很具體、很想好好弄清楚的芳療問題，我們也可以一起整理。我會提供我的經驗、資料與判斷，也會把你的實際情況放在問題裡一起考慮。</div>
+      <a href="{{ '/custom-aroma-session/' | relative_url }}" class="section-more">→ 了解一對一芳療</a>
     </div>
     <div class="about-service-card">
       <div class="about-service-title">主題 Q&amp;A</div>
@@ -160,9 +162,9 @@ permalink: /info/
       <a href="{{ '/archive/' | relative_url }}" class="section-more">→ 看近期 Q&amp;A 與公開內容</a>
     </div>
     <div class="about-service-card">
-      <div class="about-service-title">一對一芳療</div>
-      <div class="about-service-desc">如果你的情況比較複雜，或者有一個很具體、很想好好弄清楚的芳療問題，我們也可以一起整理。我會提供我的經驗、資料與判斷，也會把你的實際情況放在問題裡一起考慮。</div>
-      <a href="{{ '/custom-aroma-session/' | relative_url }}" class="section-more">→ 了解一對一芳療</a>
+      <div class="about-service-title">課程與工作坊</div>
+      <div class="about-service-desc">如果你喜歡有人帶著理解，也想真的聞、比較、操作，可以看看目前的課程與工作坊。</div>
+      <a href="{{ '/start-here/' | relative_url }}" class="section-more">→ 看目前的課程與活動</a>
     </div>
   </div>
   <a href="{{ '/start-here/' | relative_url }}" class="about-cta-banner">
