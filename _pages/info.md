@@ -56,6 +56,7 @@ permalink: /info/
 <div class="about-section">
   <div class="about-heading">我希望有一天，你不需要問我</div>
   <div class="about-prose">
+    <p>我比較像是一個芳療旅程裡的嚮導。可以陪你一起看路、整理資訊、提醒需要注意的地方，但真正走出去、做選擇、累積經驗的人，還是你自己。</p>
     <p>現在要找到芳療資訊其實不難，真正困難的是，同一個問題常常可以找到很多不同答案，而且每個答案看起來都有它的道理。</p>
     <p>像是「驅蚊要用什麼精油？」這種看起來很簡單的問題，就可能看到非常多不同配方。有人推薦檸檬香茅，有人用尤加利，有人加入天竺葵，也有人會從有效成分、使用濃度或使用方式去討論。如果只看到最後的答案，很容易變成不知道到底該相信哪一個。</p>
     <p>所以我自己遇到這類問題時，習慣先去找：這個說法的根據是什麼？它原本是在什麼條件下成立？兩個看起來互相矛盾的答案，是真的彼此衝突，還是其實談的是不同的使用情況？</p>
@@ -193,12 +194,13 @@ permalink: /info/
 </div>
 
 <div class="about-section about-footer">
-  <div class="about-heading">想繼續認識我？</div>
-  <blockquote>我通常會出現在 Instagram 和 Threads。有時候談精油，有時候談植物油，有時候拆一個芳療說法，也有時候只是記錄生活裡那些讓我忍不住想：「嗯？等一下。」的事情。</blockquote>
+  <div class="about-heading">想了解我更多？</div>
+  <blockquote>除了 <a href="https://www.instagram.com/sherry.aromatherapy/" target="_blank" rel="noopener">IG @sherry.aromatherapy</a>，我也棲息在 <a href="https://www.threads.com/@sherry.aromatherapy" target="_blank" rel="noopener">Threads</a>。IG 限動會有我的生活動態也有一些主題影片，Threads 比較多文字。你可以在這些地方靜靜觀察我，慢慢認識我。</blockquote>
+  <p style="color:var(--text-secondary); font-size:15px; line-height:1.9; max-width:440px; margin:0 auto var(--space-m);">等到有一天你準備好了，<br>期待你傳個訊息，敲敲我的門，<br>也和我說聲嗨：）</p>
   <div class="about-footer-buttons">
     <a href="https://www.instagram.com/sherry.aromatherapy/" class="hero-btn hero-btn-primary" target="_blank" rel="noopener">Instagram</a>
     <a href="https://www.threads.com/@sherry.aromatherapy" class="hero-btn hero-btn-secondary" target="_blank" rel="noopener">Threads</a>
   </div>
   <div class="about-footer-email">E-mail｜sherry.aromatherapy@gmail.com</div>
-  <div class="about-footer-signoff">謝謝你看到這裡。<br>看來你真的滿想認識我的。:)<br>如果你願意，也歡迎在 IG 私訊或寫 Email 給我，讓我也有機會認識你。</div>
+  <div class="about-footer-signoff">謝謝你看到這裡。<br>看來你真的滿想認識我的。:)</div>
 </div>
