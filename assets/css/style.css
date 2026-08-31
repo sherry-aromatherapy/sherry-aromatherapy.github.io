@@ -492,8 +492,7 @@ nav.site-nav a.nav-cta:hover{
 .start-quick-nav{margin:28px 0 8px;}
 .start-quick-nav .tool-card{padding:22px 20px;}
 .start-quick-nav .tool-card-title{font-size:16px; margin-bottom:6px;}
-.start-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}
-.section-heading{
+.start-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}.section-heading{
   font-size:13px;
   color:#ec827c;
   font-weight:700;
@@ -713,7 +712,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
   text-align:center;
 }
 .post-signoff-leaf{
-  width:44px;
+  width:34px;
   height:auto;
   flex-shrink:0;
 }
@@ -726,7 +725,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
 }
 @media (max-width:640px){
   .post-signoff{gap:8px; padding:24px 0;}
-  .post-signoff-leaf{width:36px;}
+  .post-signoff-leaf{width:26px;}
   .post-signoff p{font-size:12px;}
 }
 
