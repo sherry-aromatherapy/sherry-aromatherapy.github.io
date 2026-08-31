@@ -700,14 +700,16 @@ article.post .post-content summary::marker{color:var(--link-color);}
 
 .post-signoff{
   display:flex;
+  flex-direction:column;
   align-items:center;
-  gap:16px;
+  gap:10px;
   margin-top:50px;
-  padding:24px 0;
+  padding:32px 0;
   border-top:1px solid var(--linen);
+  text-align:center;
 }
 .post-signoff-leaf{
-  width:22px;
+  width:44px;
   height:auto;
   flex-shrink:0;
 }
@@ -719,8 +721,8 @@ article.post .post-content summary::marker{color:var(--link-color);}
   margin:0;
 }
 @media (max-width:640px){
-  .post-signoff{gap:12px;}
-  .post-signoff-leaf{width:18px;}
+  .post-signoff{gap:8px; padding:24px 0;}
+  .post-signoff-leaf{width:36px;}
   .post-signoff p{font-size:12px;}
 }
 

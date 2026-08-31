@@ -1,0 +1,13 @@
+<svg width="90" height="90" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="手繪粉紅小花">
+  <g>
+    <path d="M45 40 C42 28, 34 22, 37 12 C40 4, 50 4, 52 13 C54 23, 47 29, 45 40 Z" fill="#E9B7AE" stroke="#C17A70" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M45 40 C55 33, 65 33, 71 24 C77 16, 86 21, 83 30 C80 39, 68 40, 45 40 Z" fill="#E9B7AE" stroke="#C17A70" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M45 40 C55 47, 62 55, 74 57 C84 59, 83 69, 73 70 C63 71, 55 62, 45 40 Z" fill="#E9B7AE" stroke="#C17A70" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M45 40 C41 51, 43 61, 35 69 C28 76, 20 70, 24 61 C28 52, 37 48, 45 40 Z" fill="#E9B7AE" stroke="#C17A70" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M45 40 C34 39, 25 43, 15 39 C6 35, 10 25, 20 26 C30 27, 37 33, 45 40 Z" fill="#E9B7AE" stroke="#C17A70" stroke-width="1.6" stroke-linejoin="round"/>
+    <circle cx="45" cy="40" r="7" fill="#F2CFA0" stroke="#D9A55C" stroke-width="1.4"/>
+    <path d="M44 47 C42 58, 44 66, 40 76" stroke="#7A9463" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M42 63 C37 62, 33 65, 30 62" stroke="#7A9463" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M43 70 C48 69, 51 72, 55 70" stroke="#7A9463" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
