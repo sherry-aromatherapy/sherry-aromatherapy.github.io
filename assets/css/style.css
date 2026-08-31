@@ -259,8 +259,21 @@ nav.site-nav a.nav-cta:hover{
 }
 .search-empty{
   color:var(--mist);
+  font-size:15px;
+  padding:40px 0;
+  text-align:center;
+}
+.search-empty-img{
+  width:160px;
+  height:160px;
+  margin-bottom:16px;
+}
+.search-empty p{margin:0 0 10px;}
+.search-empty p:last-child{margin-bottom:0;}
+.search-empty-contact{
   font-size:14px;
-  padding:16px 0;
+  line-height:1.9;
+  margin-top:14px !important;
 }
 
 /* ---------- Post list (home / archive) ---------- */
@@ -682,6 +695,32 @@ article.post .post-content summary::marker{color:var(--link-color);}
 .footnotes ol{padding-left:20px;}
 .footnotes li{margin-bottom:10px;}
 .footnotes a{word-break:break-all;}
+
+.post-signoff{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-top:50px;
+  padding:24px 0;
+  border-top:1px solid var(--linen);
+}
+.post-signoff-leaf{
+  width:36px;
+  height:auto;
+  flex-shrink:0;
+}
+.post-signoff p{
+  font-family:var(--font-serif);
+  font-size:15px;
+  color:var(--text-secondary);
+  line-height:1.8;
+  margin:0;
+}
+@media (max-width:640px){
+  .post-signoff{gap:12px;}
+  .post-signoff-leaf{width:28px;}
+  .post-signoff p{font-size:14px;}
+}
 
 .post-nav{
   display:flex;

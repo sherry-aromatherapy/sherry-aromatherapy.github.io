@@ -6,7 +6,7 @@ email: "sherry.aromatherapy@gmail.com"
 # Update this once the site has a home on GitHub Pages, e.g.:
 # url: "https://sherry-aromatherapy.github.io"
 # baseurl: "/blog"
-url: ""
+url: "https://sherry-aromatherapy.github.io"
 baseurl: ""
 
 markdown: kramdown
