@@ -471,9 +471,11 @@ nav.site-nav a.nav-cta:hover{
   text-decoration:none;
 }
 .tool-card-icon{
-  font-size:28px;
-  margin-bottom:12px;
-  line-height:1;
+  width:44px;
+  height:44px;
+  object-fit:contain;
+  margin-bottom:14px;
+  display:block;
 }
 .tool-card-title{
   font-family:var(--font-serif);
@@ -711,7 +713,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
 }
 .post-signoff p{
   font-family:var(--font-sans);
-  font-size:15px;
+  font-size:13px;
   color:var(--indigo);
   line-height:1.8;
   margin:0;
@@ -719,7 +721,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
 @media (max-width:640px){
   .post-signoff{gap:12px;}
   .post-signoff-leaf{width:18px;}
-  .post-signoff p{font-size:14px;}
+  .post-signoff p{font-size:12px;}
 }
 
 .post-nav{
