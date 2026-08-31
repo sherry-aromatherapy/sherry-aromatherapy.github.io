@@ -39,7 +39,7 @@
       results.innerHTML = `
         <div class="search-empty">
           <img src="${base}/assets/images/site/search-empty-bottle.png" alt="Empty Bottle" class="search-empty-img">
-          <p>抱歉，目前沒有相關的搜尋結果。<br>換個關鍵字試試看？或者直接問我：</p>
+          <p>抱歉，目前沒有相關的搜尋結果。<br>換個關鍵字試試看？或者直接問我～</p>
           <p class="search-empty-contact">
             E-mail｜<a href="mailto:sherry.aromatherapy@gmail.com">sherry.aromatherapy@gmail.com</a><br>
             IG｜<a href="https://www.instagram.com/sherry.aromatherapy/" target="_blank" rel="noopener">@sherry.aromatherapy</a>
