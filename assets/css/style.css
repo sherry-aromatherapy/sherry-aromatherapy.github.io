@@ -489,6 +489,10 @@ nav.site-nav a.nav-cta:hover{
   color:var(--text-secondary);
   line-height:1.7;
 }
+.start-quick-nav{margin:28px 0 8px;}
+.start-quick-nav .tool-card{padding:22px 20px;}
+.start-quick-nav .tool-card-title{font-size:16px; margin-bottom:6px;}
+.start-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}
 .section-heading{
   font-size:13px;
   color:#ec827c;
@@ -777,6 +781,7 @@ article.page .page-content h2{
   line-height:1.5;
 }
 article.page .page-content h2:first-child{margin-top:0;}
+article.page .page-content h2[id]{scroll-margin-top:96px;}
 article.page .page-content h3{
   font-family:var(--font-serif);
   font-size:20px;
