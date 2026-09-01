@@ -66,7 +66,7 @@ permalink: /start-here/
 
 有些問題很難靠一篇文章回答。如果你的情況涉及特定精油、使用方式、身體狀態，或者你已經查過不少資料，還是不確定該怎麼判斷：
 
-→ **[了解一對一芳療](/custom-aroma-session/)**
+→ **[了解芳療諮詢](/aroma-consultation/)**
 
 ---
 

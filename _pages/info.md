@@ -153,9 +153,9 @@ permalink: /info/
       <a href="{{ '/sherrybooks/' | relative_url }}" class="section-more">→ 看我的書籍與文章</a>
     </div>
     <div class="about-service-card">
-      <div class="about-service-title">一對一芳療</div>
+      <div class="about-service-title">芳療諮詢</div>
       <div class="about-service-desc">如果你的情況比較複雜，或者有一個很具體、很想好好弄清楚的芳療問題，我們也可以一起整理。我會提供我的經驗、資料與判斷，也會把你的實際情況放在問題裡一起考慮。</div>
-      <a href="{{ '/custom-aroma-session/' | relative_url }}" class="section-more">→ 了解一對一芳療</a>
+      <a href="{{ '/aroma-consultation/' | relative_url }}" class="section-more">→ 了解芳療諮詢</a>
     </div>
     <div class="about-service-card">
       <div class="about-service-title">主題 Q&amp;A</div>
