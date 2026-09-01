@@ -14,7 +14,23 @@ permalink: /sherrybooks/
 
 我目前有三本書，你可以從你最關心的主題開始閱讀。
 
+<div class="tool-cards books-quick-nav">
+  <a class="tool-card" href="#book-basics">
+    <div class="tool-card-title">生活裡的芳療小百科</div>
+    <div class="tool-card-desc">想先建立生活芳療的整體輪廓，從這本開始。</div>
+  </a>
+  <a class="tool-card" href="#book-dilution">
+    <div class="tool-card-title">精油濃度安心使用大全</div>
+    <div class="tool-card-desc">已經開始用精油，卻常卡在「到底要加多少」。</div>
+  </a>
+  <a class="tool-card" href="#book-oils">
+    <div class="tool-card-title">看懂植物油</div>
+    <div class="tool-card-desc">面對各種植物油，不知道差異在哪、該怎麼選。</div>
+  </a>
+</div>
+
 ### **《生活裡的芳療小百科》**
+{: #book-basics}
 
 <span class="book-publisher">麥浩斯出版</span>
 
@@ -31,6 +47,7 @@ permalink: /sherrybooks/
 ---
 
 ### **《精油濃度安心使用大全》**
+{: #book-dilution}
 
 <span class="book-publisher">個人出版電子書</span>
 
@@ -58,6 +75,7 @@ permalink: /sherrybooks/
 ---
 
 ### **《看懂植物油》**
+{: #book-oils}
 
 <span class="book-publisher">個人出版電子書</span>
 

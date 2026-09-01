@@ -26,15 +26,13 @@ permalink: /aroma-consultation/
   </a>
   <a class="tool-card" href="#about">
     <div class="tool-card-title">認識雪莉</div>
-    <div class="tool-card-desc">我是誰、為什麼用這種方式做芳療諮詢。</div>
+    <div class="tool-card-desc">雪莉是誰？和找其他人做諮詢有什麼不同？</div>
   </a>
 </div>
 
 ---
 
-有些芳療問題，查資料就能找到答案。
-
-但有些情況會愈查愈複雜。
+有些芳療問題，查資料就能找到答案，但有時候你可能越查感覺越複雜。
 
 你可能翻過書、查過網路文章、聽過不同老師的說法，也試過幾個看起來合理的方法。每一個答案都有自己的道理，可是一放回自己的生活裡，就開始不知道該怎麼選。
 

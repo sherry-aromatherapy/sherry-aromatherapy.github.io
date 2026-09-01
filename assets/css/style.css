@@ -506,10 +506,17 @@ article.page .page-content .post-list-item h2,
 .start-quick-nav .tool-card{padding:22px 20px;}
 .start-quick-nav .tool-card-title{font-size:16px; margin-bottom:6px;}
 .start-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}
-.consult-quick-nav{margin:36px 0 8px;}
+.consult-quick-nav{margin:36px 0 48px;}
 .consult-quick-nav .tool-card{padding:22px 20px;}
 .consult-quick-nav .tool-card-title{font-size:16px; margin-bottom:6px;}
-.consult-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}.section-heading{
+.consult-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}
+.books-quick-nav{margin:28px 0 8px; grid-template-columns:repeat(3, 1fr);}
+.books-quick-nav .tool-card{padding:22px 20px;}
+.books-quick-nav .tool-card-title{font-size:16px; margin-bottom:6px;}
+.books-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}
+@media (max-width:900px){
+  .books-quick-nav{grid-template-columns:1fr;}
+}.section-heading{
   font-size:13px;
   color:#ec827c;
   font-weight:700;
