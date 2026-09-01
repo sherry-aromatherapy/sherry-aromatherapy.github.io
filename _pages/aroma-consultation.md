@@ -4,13 +4,31 @@ layout: page
 permalink: /aroma-consultation/
 ---
 
-**查了很多、試了很多，還是不知道下一步怎麼走？**
+<div class="consult-hero">
+  <p class="consult-hero-sub"><strong>查了很多、試了很多，還是不知道下一步怎麼走？</strong></p>
+  <p class="consult-hero-lead">我會先陪你看：這個問題是怎麼形成的。</p>
+  <p class="consult-hero-price"><strong>90 分鐘｜Google Meet 一對一線上進行｜NT$2,000</strong></p>
+  <p class="consult-hero-cta"><strong>👉 <a href="https://forms.gle/X5aTEBoJXAzv7XSQA">［預約芳療諮詢，開始整理問題］</a></strong></p>
+</div>
 
-我會先陪你看：這個問題是怎麼形成的。
-
-**90 分鐘｜Google Meet 一對一線上進行｜NT$2,000**
-
-**👉 [［預約芳療諮詢，開始整理問題］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+<div class="tool-cards consult-quick-nav">
+  <a class="tool-card" href="#suitable">
+    <div class="tool-card-title">這適合我嗎？</div>
+    <div class="tool-card-desc">看看這場諮詢比較適合哪些情況。</div>
+  </a>
+  <a class="tool-card" href="#process">
+    <div class="tool-card-title">90 分鐘會做什麼？</div>
+    <div class="tool-card-desc">從事前準備到談話結束，實際流程一次看懂。</div>
+  </a>
+  <a class="tool-card" href="#pricing">
+    <div class="tool-card-title">費用與預約規則</div>
+    <div class="tool-card-desc">服務費用、進行方式、取消與改期規則。</div>
+  </a>
+  <a class="tool-card" href="#about">
+    <div class="tool-card-title">認識雪莉</div>
+    <div class="tool-card-desc">我是誰、為什麼用這種方式做芳療諮詢。</div>
+  </a>
+</div>
 
 ---
 
@@ -47,6 +65,7 @@ permalink: /aroma-consultation/
 ---
 
 ### 這 90 分鐘會做什麼？
+{: #process}
 
 正式諮詢前，我會先閱讀你在預約表單裡提供的背景資料。
 
@@ -130,6 +149,7 @@ permalink: /aroma-consultation/
 ---
 
 ### 這場諮詢比較適合這些情況
+{: #suitable}
 
 - 已經讀過不少芳療資料，卻不知道不同答案之間該怎麼選
 - 明明知道很多，放到自己的實際情況裡仍然不知道怎麼判斷
@@ -168,6 +188,7 @@ permalink: /aroma-consultation/
 ---
 
 ### 服務資訊
+{: #pricing}
 
 - 進行方式：Google Meet 一對一線上深度對談
 - 服務時間：90 分鐘
@@ -175,7 +196,7 @@ permalink: /aroma-consultation/
 - 諮詢前：填寫問題與背景資料
 - 諮詢後：提供簡短對談整理
 - 後續：約 2～3 週 Email 關心近況
-- 每月名額：2 位
+- 每月名額：3 位
 
 ※為了維持互動與理解品質，諮詢時請全程開啟鏡頭；不開放錄音或錄影。
 
@@ -186,7 +207,7 @@ permalink: /aroma-consultation/
 
 更完整的取消與改期規則，會在預約表單中列出。
 
-每月只開放 2 個名額。如果你現在正卡在一個已經查過很多、試過很多，卻還是不知道下一步的問題裡，可以提早預約。
+每月只開放 3 個名額。如果你現在正卡在一個已經查過很多、試過很多，卻還是不知道下一步的問題裡，可以提早預約。
 
 **👉 [［預約芳療諮詢，開始整理問題］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
@@ -206,6 +227,7 @@ permalink: /aroma-consultation/
 ---
 
 ### 關於我｜Sherry 雪莉
+{: #about}
 
 我接觸芳療超過十五年，曾在法國芳療品牌工作十年，做過門市服務、客服、教育訓練、講師、內容編輯與內部管理，也出版過三本芳療相關書籍。
 
