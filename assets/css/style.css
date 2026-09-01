@@ -324,6 +324,19 @@ nav.site-nav a.nav-cta:hover{
   font-weight:500;
 }
 
+/* Override generic page h2 styling that leaks into archive/home post lists */
+article.page .page-content .post-list-item h2,
+.post-list-item h2{
+  font-size:21px;
+  margin:8px 0 10px;
+  padding-bottom:0;
+  border-bottom:none;
+}
+@media (max-width:767px){
+  article.page .page-content .post-list-item h2,
+  .post-list-item h2{font-size:19px;}
+}
+
 /* ---------- Archive category nav ---------- */
 .archive-cat-nav{
   display:flex;
@@ -706,7 +719,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
   flex-direction:column;
   align-items:center;
   gap:10px;
-  margin-top:50px;
+  margin-top:70px;
   padding:32px 0;
   border-top:1px solid var(--linen);
   text-align:center;
