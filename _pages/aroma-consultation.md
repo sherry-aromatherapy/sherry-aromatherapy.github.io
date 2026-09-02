@@ -141,9 +141,7 @@ permalink: /aroma-consultation/
 
 如果在諮詢過程中發現某一部分已經超出芳療適合處理的範圍，我會直接告訴你。我們仍然會一起整理：芳療還能參與到哪裡、哪些嘗試可以先停，以及接下來比較值得優先處理什麼。
 
-我不進行醫療診斷、心理治療或處方建議，也不會用芳療取代必要的專業協助。
-
-如果你的主要需求本來就是醫療診斷、治療、心理危機支持，或希望用芳療取代必要的醫療處置，這項服務就不會是適合的選擇。
+我不進行醫療診斷、心理治療或處方建議，也不會用芳療取代必要的專業協助。如果這些是你的主要需求，那麼這項服務不會是適合的選擇。
 
 ---
 
@@ -208,17 +206,15 @@ permalink: /aroma-consultation/
 
 ---
 
-### 服務資訊
+### 諮詢資訊
 {: #pricing}
 
 - 進行方式：Google Meet 一對一線上深度對談
-- 服務時間：90 分鐘
-- 服務費用：NT$2,000
-- 諮詢後：提供簡短對談整理
-- 後續：約 2～3 週 Email 關心近況
+- 對談時間：90 分鐘
+- 諮詢費用：NT$2,000，包含諮詢後三天內提供簡短對談整理，並於 2～3 週內以 E-mail 了解後續情況
 - 每月名額：3 位
 
-※為了維持互動與理解品質，諮詢時請全程開啟鏡頭；不開放錄音或錄影。
+※ 為了維持互動與理解品質，諮詢時請全程開啟鏡頭；不開放錄音或錄影。
 
 **取消與改期**
 {: .case-title}
@@ -259,5 +255,5 @@ permalink: /aroma-consultation/
 
 如果你還不確定自己的情況適不適合這項服務，也可以先用 Email 或 IG 私訊和我說說看。
 
-📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
-💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)
+<p class="consult-contact">📩 E-mail｜<a href="mailto:sherry.aromatherapy@gmail.com">sherry.aromatherapy@gmail.com</a><br>
+💬 IG｜<a href="https://www.instagram.com/sherry.aromatherapy/">@sherry.aromatherapy</a></p>

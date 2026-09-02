@@ -901,6 +901,11 @@ article.page .page-content p.case-title{
   color:var(--primary-dark);
   margin:52px 0 10px;
 }
+article.page .page-content p.consult-contact{
+  margin-top:36px;
+  font-weight:700;
+  line-height:1.9;
+}
 article.page .page-content .book-publisher{
   display:inline-block;
   font-family:var(--font-serif);
