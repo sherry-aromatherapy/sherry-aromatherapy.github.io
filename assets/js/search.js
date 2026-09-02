@@ -60,10 +60,17 @@
 
   loadData().then(() => {
     input.focus();
-    if (input.value) render(input.value);
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter'){
+      loadData().then(() => render(input.value));
+    }
   });
 
   input.addEventListener('input', () => {
-    if (searchData) render(input.value);
+    if (!input.value.trim()){
+      results.innerHTML = '';
+    }
   });
 })();
