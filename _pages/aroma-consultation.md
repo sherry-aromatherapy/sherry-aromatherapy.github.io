@@ -40,20 +40,48 @@ permalink: /aroma-consultation/
 
 ---
 
-### 90 分鐘後，你會知道什麼？
+### 這 90 分鐘，你會帶走什麼？
 {: #process}
 
-每個人的問題不同，所以最後得到的建議也不會完全一樣。依照你的情況，我們可能會確認：
+每個人的問題不同，所以最後得到的建議也不會完全一樣。依照你的情況，我們可能會一起確認：
 
-<div class="consult-outcomes">
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>現在比較值得先嘗試什麼芳療方式</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>可以考慮哪些精油、純露、植物油或其他芳療素材</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>適合怎麼使用，以及有哪些需要注意的地方</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>手邊已經有的產品，哪些其實可以繼續用</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>哪些東西或方法暫時不用再買、再試</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>接下來可以觀察哪些變化，如果情況不一樣了，可以怎麼調整</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>哪些部分已經超出芳療適合處理的範圍</span></div>
-  <div class="outcome-item"><span class="outcome-check">✓</span><span>已經試過的方法，有效或沒有效的地方，可以怎麼理解、接下來怎麼調整</span></div>
+<div class="outcome-cards">
+  <div class="outcome-card">
+    <div class="outcome-card-title"><span class="outcome-card-dot"></span>先做什麼</div>
+    <p class="outcome-card-sub">先把範圍縮小，確認目前最值得優先處理的方向。</p>
+    <ul>
+      <li>哪一個芳療方向比較值得先試</li>
+      <li>哪些事情可以先不要同時處理</li>
+      <li>哪些選項暫時不需要再繼續找</li>
+    </ul>
+  </div>
+  <div class="outcome-card">
+    <div class="outcome-card-title"><span class="outcome-card-dot"></span>用什麼、怎麼用</div>
+    <p class="outcome-card-sub">把建議放回你的實際情況裡，確認適合的使用方式。</p>
+    <ul>
+      <li>可以考慮哪些精油、純露、植物油或其他芳療素材</li>
+      <li>適合怎麼使用</li>
+      <li>有哪些使用上需要特別注意的地方</li>
+    </ul>
+  </div>
+  <div class="outcome-card">
+    <div class="outcome-card-title"><span class="outcome-card-dot"></span>哪些不用再繞</div>
+    <p class="outcome-card-sub">重新看看手邊已經有的東西，以及過去做過的嘗試。</p>
+    <ul>
+      <li>哪些產品其實可以繼續使用</li>
+      <li>哪些東西或方法暫時不用再買、再試</li>
+      <li>已經試過的方法，有效或沒有效的地方，可以怎麼理解</li>
+    </ul>
+  </div>
+  <div class="outcome-card">
+    <div class="outcome-card-title"><span class="outcome-card-dot"></span>接下來怎麼看</div>
+    <p class="outcome-card-sub">讓這次的建議不只停在諮詢當下，也知道之後怎麼調整。</p>
+    <ul>
+      <li>接下來可以觀察哪些變化</li>
+      <li>如果情況改變了，可以從哪裡開始調整</li>
+      <li>哪些部分已經超出芳療適合處理的範圍，需要往其他專業方向確認</li>
+    </ul>
+  </div>
 </div>
 
 諮詢後，我也會提供一份簡短的對談整理，讓你不用把 90 分鐘全部記在腦袋裡。
@@ -61,6 +89,7 @@ permalink: /aroma-consultation/
 ---
 
 ### 兩個實際案例
+{: .section-gap-lg}
 
 **案例一｜已經試過很多，卻還是沒有方向**
 
