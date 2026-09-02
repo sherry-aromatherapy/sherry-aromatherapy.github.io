@@ -516,6 +516,36 @@ article.page .page-content .post-list-item h2,
 .books-quick-nav .tool-card-desc{font-size:13px; line-height:1.6;}
 @media (max-width:900px){
   .books-quick-nav{grid-template-columns:1fr;}
+}
+.consult-outcomes{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px 24px;
+  margin:22px 0 24px;
+}
+.outcome-item{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  font-size:14px;
+  line-height:1.65;
+}
+.outcome-check{
+  flex-shrink:0;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:var(--sage);
+  color:var(--white);
+  font-size:12px;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:2px;
+}
+@media (max-width:640px){
+  .consult-outcomes{grid-template-columns:1fr;}
 }.section-heading{
   font-size:13px;
   color:#ec827c;

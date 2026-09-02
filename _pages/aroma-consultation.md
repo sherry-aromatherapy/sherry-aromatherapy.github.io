@@ -32,11 +32,11 @@ permalink: /aroma-consultation/
 
 ---
 
-自己查芳療資料時，很容易先從「這個問題可以用什麼？」開始找答案。
+自己查芳療資料時，很容易先從「這個情況可以用什麼？」開始找答案。
 
-但真正影響選擇的，有時候是搜尋時沒有一起放進來的條件：你目前的身體狀況、生活變化、正在使用的方法、過去的反應，或其他原本沒有想到的重要資訊。
+可是，真正影響結果的，有時候是搜尋時沒有一起放進來的條件：你目前的身體狀況、生活變化、正在使用的方法、過去的反應，或其他原本沒有想到的重要資訊。
 
-所以諮詢裡，我不只會幫你從很多可能性裡縮小範圍，也會一起確認：有沒有什麼條件被漏掉，而它其實會改變我們接下來的判斷。
+所以在這個芳療諮詢中，我不只會幫你從很多可能性裡縮小範圍，也會一起確認：有沒有什麼條件被漏掉，而它其實會改變我們接下來的判斷。
 
 ---
 
@@ -45,14 +45,16 @@ permalink: /aroma-consultation/
 
 每個人的問題不同，所以最後得到的建議也不會完全一樣。依照你的情況，我們可能會確認：
 
-- 現在比較值得先嘗試什麼芳療方式
-- 可以考慮哪些精油、純露、植物油或其他芳療素材
-- 適合怎麼使用，以及有哪些需要注意的地方
-- 手邊已經有的產品，哪些其實可以繼續用
-- 哪些東西或方法暫時不用再買、再試
-- 接下來可以觀察哪些變化，如果情況不一樣了，可以怎麼調整
-- 哪些部分已經超出芳療適合處理的範圍
-- 已經試過的方法，有效或沒有效的地方，可以怎麼理解、接下來怎麼調整
+<div class="consult-outcomes">
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>現在比較值得先嘗試什麼芳療方式</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>可以考慮哪些精油、純露、植物油或其他芳療素材</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>適合怎麼使用，以及有哪些需要注意的地方</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>手邊已經有的產品，哪些其實可以繼續用</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>哪些東西或方法暫時不用再買、再試</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>接下來可以觀察哪些變化，如果情況不一樣了，可以怎麼調整</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>哪些部分已經超出芳療適合處理的範圍</span></div>
+  <div class="outcome-item"><span class="outcome-check">✓</span><span>已經試過的方法，有效或沒有效的地方，可以怎麼理解、接下來怎麼調整</span></div>
+</div>
 
 諮詢後，我也會提供一份簡短的對談整理，讓你不用把 90 分鐘全部記在腦袋裡。
 
@@ -213,3 +215,6 @@ permalink: /aroma-consultation/
 **👉 [［預約芳療諮詢］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 如果你還不確定自己的情況適不適合這項服務，也可以先用 Email 或 IG 私訊和我說說看。
+
+📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
+💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)
