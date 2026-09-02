@@ -894,6 +894,13 @@ article.page .page-content h3{
   line-height:1.5;
 }
 article.page .page-content h3.section-gap-lg{margin-top:88px;}
+article.page .page-content p.case-title{
+  font-family:var(--font-serif);
+  font-size:17px;
+  letter-spacing:0.04em;
+  color:var(--primary-dark);
+  margin:52px 0 10px;
+}
 article.page .page-content .book-publisher{
   display:inline-block;
   font-family:var(--font-serif);

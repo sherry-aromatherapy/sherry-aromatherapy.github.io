@@ -5,10 +5,10 @@ permalink: /aroma-consultation/
 ---
 
 <div class="consult-hero">
-  <p class="consult-hero-sub"><strong>查了很多、試了很多，還是不知道下一步怎麼走？</strong></p>
-  <p class="consult-hero-lead">你不需要先讀懂所有資料再來找我。把現在卡住的地方帶來就可以，我會先幫你把範圍縮小。</p>
+  <p class="consult-hero-sub"><strong>不知道這個情況該用什麼、怎麼用，或要不要繼續試？</strong></p>
+  <p class="consult-hero-lead">把你的實際狀況帶來。我會幫你一起看哪些資訊真的跟你有關、有哪些條件可能被漏掉，再確認現在最值得先做什麼。</p>
   <p class="consult-hero-price"><strong>90 分鐘｜Google Meet 一對一線上進行｜NT$2,000</strong></p>
-  <p class="consult-hero-cta"><strong>👉 <a href="https://forms.gle/X5aTEBoJXAzv7XSQA">［預約芳療諮詢］</a></strong></p>
+  <p class="consult-hero-cta"><strong>👉 <a href="https://forms.gle/X5aTEBoJXAzv7XSQA">［預約芳療諮詢，確認下一步］</a></strong></p>
 </div>
 
 <div class="tool-cards consult-quick-nav">
@@ -92,6 +92,7 @@ permalink: /aroma-consultation/
 {: .section-gap-lg}
 
 **案例一｜已經試過很多，卻還是沒有方向**
+{: .case-title}
 
 曾經有人因為反覆出現唇炎和我討論。
 
@@ -114,6 +115,7 @@ permalink: /aroma-consultation/
 從「唇炎可以用什麼？」走到「這個情況從什麼時候開始？那段時間還發生了什麼？」，有時候問題一換，原本看不到的線索才會出現。
 
 **案例二｜還沒開始嘗試，先看哪些事情值得確認**
+{: .case-title}
 
 有一位朋友因為生理期長期不規律，查了不少資料，也問過身邊懂芳療的人，得到的建議多半圍繞玫瑰、快樂鼠尾草這類常被提到的精油。
 
@@ -161,7 +163,7 @@ permalink: /aroma-consultation/
 
 也沒關係。把你現在卡住的地方帶來，我們就從那裡開始。
 
-**👉 [［預約芳療諮詢］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+**👉 [［預約芳療諮詢，確認下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 ---
 
@@ -204,7 +206,7 @@ permalink: /aroma-consultation/
 
 每月只開放 3 個名額。如果你現在正卡在一個已經查過很多、試過很多，卻還是不知道下一步的問題裡，可以提早預約。
 
-**👉 [［預約芳療諮詢］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+**👉 [［預約芳療諮詢，確認下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 填寫表單後，我會於 2 個工作天內回覆可以預約的時段與付款資訊。
 
@@ -241,7 +243,7 @@ permalink: /aroma-consultation/
 
 當問題需要判斷、整理、重新定義時，來找雪莉。
 
-**👉 [［預約芳療諮詢］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+**👉 [［預約芳療諮詢，確認下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 如果你還不確定自己的情況適不適合這項服務，也可以先用 Email 或 IG 私訊和我說說看。
 
