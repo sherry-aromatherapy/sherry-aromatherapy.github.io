@@ -248,7 +248,7 @@ permalink: /point-of-oil/
 ## **常見問題**
 
 **Q：購買後如何收到電子書？**   
-完成付款後，系統將自動提供檔案下載連結，並寄發連結到你填寫的信箱。如果沒有收到，請 Email 或 IG 私訊聯繫我。  
+完成付款後，系統將自動提供檔案下載連結，並寄發連結到你填寫的信箱。如果沒有收到，請 E-mail 或 IG 私訊聯繫我。  
   
  E-mail｜sherry.aromatherapy@gmail.com IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)
 
@@ -273,7 +273,7 @@ permalink: /point-of-oil/
 如果你想深入理解精油濃度、稀釋比例、安全使用範圍、不同年齡與情境的調整方式，可以參考《精油濃度安心使用大全》。
 
 **Q：我購買後還可以提問嗎？**   
-如果是購買、下載或檔案相關問題，可以直接 Email 或 IG 私訊我。
+如果是購買、下載或檔案相關問題，可以直接 E-mail 或 IG 私訊我。
 
 如果是非常個人化、需要完整了解膚況、使用習慣或生活情境的問題，比較適合另外預約一對一諮詢。
 

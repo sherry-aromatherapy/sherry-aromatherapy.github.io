@@ -146,7 +146,7 @@ permalink: /start-here/
 
 ### 如果你想知道最近有什麼新東西
 
-我的更新頻率不固定。有新的文章、Podcast、課程、Q&A、新書，或其他我覺得值得特別告訴你的內容時，我會透過 Email 通知。
+我的更新頻率不固定。有新的文章、Podcast、課程、Q&A、新書，或其他我覺得值得特別告訴你的內容時，我會透過 E-mail 通知。
 
 → **[免費訂閱最新消息](https://forms.gle/tTikL2YGSpqny3Sa9)**
 
@@ -154,4 +154,7 @@ permalink: /start-here/
 
 如果你現在還是不知道從哪裡開始，也沒關係。
 
-可以先用 Email 或 IG 私訊跟我打聲招呼，跟我說說你最近對什麼有興趣、感覺自己卡在哪裡。我可以陪你一起找找看，從哪裡開始最適合。
+可以先用 E-mail 或 IG 私訊跟我打聲招呼，跟我說說你最近對什麼有興趣、感覺自己卡在哪裡。我可以陪你一起找找看，從哪裡開始最適合。
+
+**📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
+💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)**

@@ -20,7 +20,7 @@ permalink: /qa/
 
 線上直播，全程即時發問，不用先把問題想得很完整，當下想到什麼都可以問。免費參加。
 
-直播連結與確切時間，會在場次確定後透過 Email 通知。
+直播連結與確切時間，會在場次確定後透過 E-mail 通知。
 
 ---
 
@@ -30,7 +30,7 @@ permalink: /qa/
 
 **👉 [訂閱最新消息](https://forms.gle/tTikL2YGSpqny3Sa9)**
 
-如果你已經有想問的問題，也可以先用 Email 或 IG 私訊告訴我，我會留意安排進對應的場次裡。
+如果你已經有想問的問題，也可以先用 E-mail 或 IG 私訊告訴我，我會留意安排進對應的場次裡。
 
 **📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
 💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)**

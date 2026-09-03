@@ -33,7 +33,7 @@ permalink: /courses/
 
 **👉 [訂閱最新消息](https://forms.gle/tTikL2YGSpqny3Sa9)**
 
-如果你對某個主題特別有興趣，也可以先用 Email 或 IG 私訊告訴我，開課規劃時我會列入考慮。
+如果你對某個主題特別有興趣，也可以先用 E-mail 或 IG 私訊告訴我，開課規劃時我會列入考慮。
 
 **📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
 💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)**
