@@ -15,13 +15,13 @@ permalink: /tools/
 
   <a class="tool-card" href="/draw-a-tarot/">
     <img src="{{ '/assets/images/site/tool-icon-tarot.png' | relative_url }}" alt="" class="tool-card-icon">
-    <div class="tool-card-title">塔羅抽牌</div>
+    <div class="tool-card-title">塔羅抽牌（純文字，無牌卡圖片）</div>
     <div class="tool-card-desc">線上抽一張塔羅牌，給自己一個安靜思考的入口。</div>
   </a>
 
   <a class="tool-card" href="/lenormand/">
     <img src="{{ '/assets/images/site/tool-icon-lenormand.png' | relative_url }}" alt="" class="tool-card-icon">
-    <div class="tool-card-title">雷諾曼抽牌</div>
+    <div class="tool-card-title">雷諾曼抽牌（純文字，無牌卡圖片）</div>
     <div class="tool-card-desc">用牌卡敲敲宇宙的門，看看有哪些自己沒察覺的線索。</div>
   </a>
 

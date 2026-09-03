@@ -44,29 +44,45 @@ permalink: /start-here/
 - 我照著資料使用了，實際反應卻跟書上寫的不一樣，怎麼辦？
 {: .list-tight}
 
-如果你正在處理一個具體問題，可以先從這些地方開始。
+如果你正在處理一個具體問題，可以先從下面這些地方開始。
 
-### 精油濃度與安全
-
-→ **[《精油濃度安心使用大全》](/eo-dilution-ebook/)**  
-→ **[精油濃度計算機](/calculator/)**  
-→ **[精油安全與使用文章](/archive/?cat=精油安全與使用)**
-
-### 植物油怎麼選
-
-→ **[《看懂植物油》](/point-of-oil/)**
-
-### 不同精油怎麼比較
-
-如果你想知道的不只是「這支精油有什麼功效」，還包括為什麼選它、相似精油差在哪裡、手邊沒有某支時可以怎麼想：
-
-→ **[YouTube｜芳療比一比](https://www.youtube.com/playlist?list=PLvYOEfBrfAT2pMP5Ay3Gr886rLpbGA9_B)**
-
-### 問題比較複雜，想一起整理
-
-有些問題很難靠一篇文章回答。如果你的情況涉及特定精油、使用方式、身體狀態，或者你已經查過不少資料，還是不確定該怎麼判斷：
-
-→ **[了解芳療諮詢](/aroma-consultation/)**
+<div class="resource-cards">
+  <div class="resource-card">
+    <div class="resource-card-title">精油濃度與安全</div>
+    <ul>
+      <li><a href="/eo-dilution-ebook/">《精油濃度安心使用大全》</a></li>
+      <li><a href="/calculator/">精油濃度計算機</a></li>
+      <li><a href="/archive/?cat=精油安全與使用">精油安全與使用文章</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">植物油怎麼選</div>
+    <ul>
+      <li><a href="/point-of-oil/">《看懂植物油》</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">不同精油怎麼比較</div>
+    <p>如果你想知道的不只是「這支精油有什麼功效」，還包括為什麼選它、相似精油差在哪裡、手邊沒有某支時可以怎麼想：</p>
+    <ul>
+      <li><a href="https://www.youtube.com/playlist?list=PLvYOEfBrfAT2pMP5Ay3Gr886rLpbGA9_B">YouTube｜芳療比一比</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">問題比較複雜，想一起整理</div>
+    <p>有些問題很難靠一篇文章回答。如果你的情況涉及特定精油、使用方式、身體狀態，或者你已經查過不少資料，還是不確定該怎麼判斷：</p>
+    <ul>
+      <li><a href="/aroma-consultation/">了解芳療諮詢</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">想直接問，不想自己查</div>
+    <p>如果你的問題不算太複雜，比較想用最快的方式直接問到答案：</p>
+    <ul>
+      <li><a href="/qa/">主題 Q&amp;A｜線上直播即時問答</a></li>
+    </ul>
+  </div>
+</div>
 
 ---
 
@@ -91,7 +107,8 @@ permalink: /start-here/
 如果你想更有系統地自己學芳療，也可以從這裡開始：
 
 → **[芳療學習與書單](/archive/?cat=芳療學習與書單)**  
-→ **[我的 1+40 本芳療書單](/aroma-booklist/)**
+→ **[我的 1+40 本芳療書單](/aroma-booklist/)**  
+→ **[課程與工作坊](/courses/)**
 
 你不需要一次全部讀完。找到一個現在真的有興趣的問題，沿著它往下走，通常就是很好的開始。
 

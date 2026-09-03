@@ -202,5 +202,5 @@ permalink: /info/
     <a href="https://www.threads.com/@sherry.aromatherapy" class="hero-btn hero-btn-secondary" target="_blank" rel="noopener">Threads</a>
   </div>
   <div class="about-footer-email">E-mail｜sherry.aromatherapy@gmail.com</div>
-  <div class="about-footer-signoff">謝謝你看到這裡。<br>看來你真的滿想認識我的。:)</div>
+  <div class="about-footer-signoff">謝謝你看到這裡。<br>看來你真的滿想認識我的：）</div>
 </div>
