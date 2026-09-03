@@ -5,10 +5,10 @@ permalink: /aroma-consultation/
 ---
 
 <div class="consult-hero">
-  <p class="consult-hero-sub"><strong>不知道這個情況該用什麼、怎麼用，或要不要繼續試？</strong></p>
-  <p class="consult-hero-lead">把你的實際狀況帶來。我會幫你一起看哪些資訊真的跟你有關、有哪些條件可能被漏掉，再確認現在最值得先做什麼。</p>
+  <p class="consult-hero-sub"><strong>不知道這個情況該用什麼、怎麼用，或還要不要繼續試？</strong></p>
+  <p class="consult-hero-lead">你不需要先把所有資料看懂，也不用先把問題整理得很完整。把你現在遇到的情況、已經查到的資訊、試過的方法帶來，我會和你一起重新看看這條路走到哪裡了，有沒有漏掉什麼重要條件，再確認下一步比較值得往哪裡走。</p>
   <p class="consult-hero-price"><strong>90 分鐘｜Google Meet 一對一線上進行｜NT$2,000</strong></p>
-  <p class="consult-hero-cta"><strong>👉 <a href="https://forms.gle/X5aTEBoJXAzv7XSQA">［預約芳療諮詢，確認下一步］</a></strong></p>
+  <p class="consult-hero-cta"><strong>👉 <a href="https://forms.gle/X5aTEBoJXAzv7XSQA">［預約芳療諮詢，一起看看下一步］</a></strong></p>
 </div>
 
 <div class="tool-cards consult-quick-nav">
@@ -32,11 +32,15 @@ permalink: /aroma-consultation/
 
 ---
 
-自己查芳療資料時，很容易先從「這個情況可以用什麼？」開始找答案。
+當你已經走了一段，卻不知道下一步往哪裡時，來找雪莉。
 
-可是，真正影響結果的，有時候是搜尋時沒有一起放進來的條件：你目前的身體狀況、生活變化、正在使用的方法、過去的反應，或其他原本沒有想到的重要資訊。
+### 我比較像芳療旅程裡的嚮導
 
-所以在這個芳療諮詢中，我不只會幫你從很多可能性裡縮小範圍，也會一起確認：有沒有什麼條件被漏掉，而它其實會改變我們接下來的判斷。
+自己查芳療資料，很像拿著很多張不同版本的地圖在找路。
+
+我不會替你決定唯一正確的答案，也不會只照著「這個問題通常用什麼」給你一個固定配方。
+
+我比較像陪你一起重新看路的人：把你已經知道的、試過的，以及現在真正發生的情況放在一起，再告訴你，如果是我，現在會先往哪裡走。
 
 ---
 
@@ -48,25 +52,25 @@ permalink: /aroma-consultation/
 <div class="outcome-cards">
   <div class="outcome-card">
     <div class="outcome-card-title"><span class="outcome-card-dot"></span>先做什麼</div>
-    <p class="outcome-card-sub">先把範圍縮小，確認目前最值得優先處理的方向。</p>
+    <p class="outcome-card-sub">把現在最重要的方向先找出來。</p>
     <ul>
       <li>哪一個芳療方向比較值得先試</li>
       <li>哪些事情可以先不要同時處理</li>
-      <li>哪些選項暫時不需要再繼續找</li>
+      <li>哪些選項暫時不用再繼續找</li>
     </ul>
   </div>
   <div class="outcome-card">
     <div class="outcome-card-title"><span class="outcome-card-dot"></span>用什麼、怎麼用</div>
-    <p class="outcome-card-sub">把建議放回你的實際情況裡，確認適合的使用方式。</p>
+    <p class="outcome-card-sub">把建議放回你的實際生活裡。</p>
     <ul>
       <li>可以考慮哪些精油、純露、植物油或其他芳療素材</li>
       <li>適合怎麼使用</li>
-      <li>有哪些使用上需要特別注意的地方</li>
+      <li>有哪些需要特別注意的地方</li>
     </ul>
   </div>
   <div class="outcome-card">
     <div class="outcome-card-title"><span class="outcome-card-dot"></span>哪些不用再繞</div>
-    <p class="outcome-card-sub">重新看看手邊已經有的東西，以及過去做過的嘗試。</p>
+    <p class="outcome-card-sub">讓過去的嘗試也變成有用的線索。</p>
     <ul>
       <li>哪些產品其實可以繼續使用</li>
       <li>哪些東西或方法暫時不用再買、再試</li>
@@ -75,7 +79,7 @@ permalink: /aroma-consultation/
   </div>
   <div class="outcome-card">
     <div class="outcome-card-title"><span class="outcome-card-dot"></span>接下來怎麼看</div>
-    <p class="outcome-card-sub">讓這次的建議不只停在諮詢當下，也知道之後怎麼調整。</p>
+    <p class="outcome-card-sub">知道之後要觀察什麼、何時需要換方向。</p>
     <ul>
       <li>接下來可以觀察哪些變化</li>
       <li>如果情況改變了，可以從哪裡開始調整</li>
@@ -91,28 +95,24 @@ permalink: /aroma-consultation/
 ### 兩個實際案例
 {: .section-gap-lg}
 
-**案例一｜已經試過很多，卻還是沒有方向**
+**案例一｜原本一直找「還能用什麼」，後來發現問題可以換個角度看**
 {: .case-title}
 
 曾經有人因為反覆出現唇炎和我討論。
 
-他已經有多年的芳療使用經驗。真正薰衣草、德國洋甘菊、乳香、月見草油……他其實試過不少自己熟悉、也看起來合理的選擇，情況卻一直沒有明顯變化。
+他已經有多年的芳療使用經驗，也試過真正薰衣草、德國洋甘菊、乳香、月見草油等看起來合理的選擇，情況卻一直沒有明顯變化。
 
-如果繼續搜尋「唇炎可以用什麼精油」，很可能只會得到更多他早就看過，甚至已經試過的答案。
-
-談話過程中，我問了一句：「最近生活裡有沒有什麼改變？」
+談話時，我問了一句：「最近生活裡有沒有什麼改變？」
 
 他才提到，最近工作換了新的上司。新的帶領方式讓他很不舒服，工作時常常感到生氣，卻又覺得自己不能表達。
 
-這個資訊沒有辦法證明唇炎和情緒之間存在直接因果，也不能推論其他人的唇炎都需要從情緒處理。但它讓我們多看到了一條原本沒有被放進問題裡的線索。
+這個資訊沒有辦法證明唇炎和情緒之間存在直接因果，但它讓我們看到了一個原本沒有被放進問題裡的條件。
 
 於是，我們把重點轉向他最近明顯增加的壓力與情緒狀態，讓這件事也成為日常照顧的一部分。
 
-當時我和他討論了幾種可能會帶來支持的芳療產品，後來他選擇使用手邊原本就有的香蜂草純露。大約一個月後，他告訴我唇炎已經改善。
+後來他選擇使用手邊原本就有的香蜂草純露。大約一個月後，他告訴我唇炎已經改善。
 
-我不想直接斷言香蜂草純露可以消唇炎，因為生活很複雜，我們很難判斷到底是哪個因素解除了這個讓人困擾的情況。我覺得更重要的是：當原本的問題已經試過很多答案，但一直沒有帶來改變，我們有沒有機會換一個角度看問題。
-
-從「唇炎可以用什麼？」走到「這個情況從什麼時候開始？那段時間還發生了什麼？」，有時候問題一換，原本看不到的線索才會出現。
+我不想直接斷言香蜂草純露可以消唇炎，因為生活很複雜，我們很難判斷到底是哪個因素解除了這個讓人困擾的情況。對我來說，更重要的是：原本一直繞不出去的問題，因為換了一個角度，終於出現新的路。
 
 **案例二｜還沒開始嘗試，先看哪些事情值得確認**
 {: .case-title}
@@ -163,7 +163,7 @@ permalink: /aroma-consultation/
 
 也沒關係。把你現在卡住的地方帶來，我們就從那裡開始。
 
-**👉 [［預約芳療諮詢，確認下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+**👉 [［預約芳療諮詢，一起看看下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 ---
 
@@ -226,7 +226,7 @@ permalink: /aroma-consultation/
 
 每月只開放 3 個名額。如果你現在正卡在一個已經查過很多、試過很多，卻還是不知道下一步的問題裡，可以提早預約。
 
-**👉 [［預約芳療諮詢，確認下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+**👉 [［預約芳療諮詢，一起看看下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 填寫表單後，我會於 2 個工作天內回覆可以預約的時段與付款資訊。
 
@@ -251,9 +251,12 @@ permalink: /aroma-consultation/
 
 當問題需要判斷、整理、重新定義時，來找雪莉。
 
-**👉 [［預約芳療諮詢，確認下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
+**👉 [［預約芳療諮詢，一起看看下一步］](https://forms.gle/X5aTEBoJXAzv7XSQA)**
 
 如果你還不確定自己的情況適不適合這項服務，也可以先用 Email 或 IG 私訊和我說說看。
+
+**與我聯絡**
+{: .case-title}
 
 <p class="consult-contact">📩 E-mail｜<a href="mailto:sherry.aromatherapy@gmail.com">sherry.aromatherapy@gmail.com</a><br>
 💬 IG｜<a href="https://www.instagram.com/sherry.aromatherapy/">@sherry.aromatherapy</a></p>

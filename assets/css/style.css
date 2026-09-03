@@ -902,7 +902,7 @@ article.page .page-content p.case-title{
   margin:52px 0 10px;
 }
 article.page .page-content p.consult-contact{
-  margin-top:36px;
+  margin-top:0;
   font-weight:700;
   line-height:1.9;
 }
