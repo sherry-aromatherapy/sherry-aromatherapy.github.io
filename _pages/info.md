@@ -159,13 +159,13 @@ permalink: /info/
     </div>
     <div class="about-service-card">
       <div class="about-service-title">主題 Q&amp;A</div>
-      <div class="about-service-desc">如果你只是某個地方卡住了，或者最近看到兩個不同說法，不知道差異到底在哪裡，可以看看我整理過的 Q&amp;A 與公開內容。</div>
-      <a href="{{ '/archive/' | relative_url }}" class="section-more">→ 看近期 Q&amp;A 與公開內容</a>
+      <div class="about-service-desc">肌膚保養、純露使用、睡眠問題，三場線上直播 Q&amp;A 即將開始，每個月月底一場，免費參加。</div>
+      <a href="{{ '/qa/' | relative_url }}" class="section-more">→ 看場次規劃、訂閱通知</a>
     </div>
     <div class="about-service-card">
       <div class="about-service-title">課程與工作坊</div>
-      <div class="about-service-desc">如果你喜歡有人帶著理解，也想真的聞、比較、操作，可以看看目前的課程與工作坊。</div>
-      <a href="{{ '/start-here/' | relative_url }}" class="section-more">→ 看目前的課程與活動</a>
+      <div class="about-service-desc">11 月起陸續推出線上與實體課程，帶你更有系統地認識精油與植物油，新手或有基礎的人都適合。</div>
+      <a href="{{ '/courses/' | relative_url }}" class="section-more">→ 看課程方向、訂閱通知</a>
     </div>
   </div>
   <a href="{{ '/start-here/' | relative_url }}" class="about-cta-banner">
