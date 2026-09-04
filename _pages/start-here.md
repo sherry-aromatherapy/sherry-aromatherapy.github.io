@@ -4,21 +4,21 @@ layout: page
 permalink: /start-here/
 ---
 
-哈囉你好，我是雪莉。
+哈囉你好，我是雪莉～
 
-如果你第一次來到這裡，可能會發現：這個網站裡有精油、植物油、芳療安全、嗅覺與身體，也有很多我查資料、比較不同說法之後留下來的文章。所以如果一時不知道該從哪裡開始，很正常。
+如果你第一次來到這裡，可能會發現這個網站裡有很多內容。所以如果一時不知道該從哪裡開始，很正常。
 
-我平常很在意的一件事是：**當不同答案彼此衝突時，我們能不能知道下一步該問什麼？** 我不太想只幫你記住更多標準答案，更希望這裡的內容能陪你從「我不知道怎麼選」，慢慢走到「我知道自己可以從哪裡開始判斷」。
+我平常很在意的一件事是：**當不同答案彼此衝突時，我們能不能知道下一步該問什麼？** 我不太想只幫你記住更多標準答案，更希望這裡的內容能陪你從「我不知道怎麼選」，逐步走到「我知道自己可以從哪裡開始判斷」。
 
 先告訴我，你現在比較像哪一種：
 
 <div class="tool-cards start-quick-nav">
   <a class="tool-card" href="#judge">
-    <div class="tool-card-title">我想學會自己判斷</div>
+    <div class="tool-card-title">我想自己學習如何判斷</div>
     <div class="tool-card-desc">看多了互相矛盾的說法，想知道怎麼拆解、怎麼查證。</div>
   </a>
   <a class="tool-card" href="#question">
-    <div class="tool-card-title">我有一個具體問題</div>
+    <div class="tool-card-title">我有芳療問題想了解</div>
     <div class="tool-card-desc">精油濃度、植物油、安全疑慮，或某個用起來跟預期不一樣的狀況。</div>
   </a>
   <a class="tool-card" href="#senses">
@@ -33,7 +33,7 @@ permalink: /start-here/
 
 ---
 
-## **我想慢慢學會自己判斷**
+## **我想自己學習如何判斷**
 {: #judge}
 
 你可能已經看過不少芳療資料，但愈看問題愈多。例如：
@@ -62,7 +62,7 @@ permalink: /start-here/
 
 ---
 
-## **我現在有一個芳療問題**
+## **我有芳療問題想了解**
 {: #question}
 
 可能是：
