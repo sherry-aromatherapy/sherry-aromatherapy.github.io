@@ -108,6 +108,7 @@ permalink: /start-here/
 
 → **[芳療學習與書單](/archive/?cat=芳療學習與書單)**  
 → **[我的 1+40 本芳療書單](/aroma-booklist/)**  
+→ **[我的書](/sherrybooks/)**  
 → **[課程與工作坊](/courses/)**
 
 你不需要一次全部讀完。找到一個現在真的有興趣的問題，沿著它往下走，通常就是很好的開始。
@@ -135,6 +136,7 @@ permalink: /start-here/
 那也很好。你可以直接看看我最近在想什麼、查什麼、寫什麼。
 
 → **[所有芳療文章](/archive/)**  
+→ **[小工具](/tools/)**  
 → **[Threads](https://www.threads.com/@sherry.aromatherapy)**  
 → **[Instagram](https://www.instagram.com/@sherry.aromatherapy)**  
 → **[Podcast《不只是芳療》](https://open.spotify.com/show/033riNlYcMoPK6RfmslFXC)**  

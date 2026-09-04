@@ -37,12 +37,8 @@ defaults:
 nav:
   - title: "從這裡開始"
     url: "/start-here/"
-  - title: "文章"
+  - title: "芳療文章"
     url: "/archive/"
-  - title: "我的書"
-    url: "/sherrybooks/"
-  - title: "小工具"
-    url: "/tools/"
   - title: "關於雪莉"
     url: "/info/"
 

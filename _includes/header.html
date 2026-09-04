@@ -3,11 +3,20 @@
     <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title }}</a>
 
     <div class="nav-links" id="navLinks">
-      {% for item in site.nav %}
-        <a href="{{ item.url | relative_url }}"
-           class="{% if page.url == item.url %}active{% endif %}">{{ item.title }}</a>
-      {% endfor %}
-      <a href="{{ '/aroma-consultation/' | relative_url }}" class="nav-cta">芳療諮詢</a>
+      <a href="{{ '/start-here/' | relative_url }}" class="{% if page.url == '/start-here/' %}active{% endif %}">從這裡開始</a>
+      <a href="{{ '/archive/' | relative_url }}" class="{% if page.url == '/archive/' %}active{% endif %}">芳療文章</a>
+
+      <div class="nav-dropdown">
+        <a href="{{ '/learn/' | relative_url }}" class="nav-dropdown-trigger {% if page.url == '/learn/' or page.url == '/aroma-consultation/' or page.url == '/courses/' or page.url == '/qa/' %}active{% endif %}">學習與諮詢</a>
+        <div class="nav-dropdown-menu">
+          <a href="{{ '/aroma-consultation/' | relative_url }}">芳療諮詢</a>
+          <a href="{{ '/courses/' | relative_url }}">課程與工作坊</a>
+          <a href="{{ '/qa/' | relative_url }}">主題 Q&amp;A</a>
+        </div>
+      </div>
+
+      <a href="{{ '/info/' | relative_url }}" class="{% if page.url == '/info/' %}active{% endif %}">關於雪莉</a>
+      <a href="https://portaly.cc/sherry.aromatherapy/support" target="_blank" rel="noopener" class="nav-support">支持創作</a>
     </div>
 
     <a href="{{ '/search/' | relative_url }}"

@@ -21,6 +21,25 @@ layout: default
     <p>謝謝你讀到這裡，祝福你有芳香的一天。<br>如果有和我一樣或不一樣的想法，也歡迎跟我聊聊：）</p>
   </div>
 
+  <div class="post-support">
+    <a href="https://portaly.cc/sherry.aromatherapy/support" target="_blank" rel="noopener">☕ 支持我持續寫作</a>
+  </div>
+
+  {% if page.categories.size > 0 %}
+    {% assign related_cat = page.categories | first %}
+    {% assign related_posts = site.categories[related_cat] | where_exp: "p", "p.url != page.url" | slice: 0, 4 %}
+    {% if related_posts.size > 0 %}
+    <div class="post-related">
+      <h3>相關文章</h3>
+      <ul>
+        {% for p in related_posts %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  {% endif %}
+
   <div class="post-nav">
     {% if page.previous %}
       <a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
