@@ -13,75 +13,22 @@ permalink: /start-here/
 先告訴我，你現在比較像哪一種：
 
 <div class="tool-cards start-quick-nav">
-  <a class="tool-card" href="#question">
-    <div class="tool-card-title">我有一個具體問題</div>
-    <div class="tool-card-desc">精油濃度、植物油、安全疑慮，或某個用起來跟預期不一樣的狀況。</div>
-  </a>
   <a class="tool-card" href="#judge">
     <div class="tool-card-title">我想學會自己判斷</div>
     <div class="tool-card-desc">看多了互相矛盾的說法，想知道怎麼拆解、怎麼查證。</div>
   </a>
+  <a class="tool-card" href="#question">
+    <div class="tool-card-title">我有一個具體問題</div>
+    <div class="tool-card-desc">精油濃度、植物油、安全疑慮，或某個用起來跟預期不一樣的狀況。</div>
+  </a>
   <a class="tool-card" href="#senses">
-    <div class="tool-card-title">我想探索氣味與身體</div>
-    <div class="tool-card-desc">氣味怎麼影響感受、身體狀態又怎麼參與其中。</div>
+    <div class="tool-card-title">我想用氣味多理解自己一點</div>
+    <div class="tool-card-desc">想從氣味、身體與情緒的變化，理解自己現在發生什麼。</div>
   </a>
   <a class="tool-card" href="#browse">
     <div class="tool-card-title">我只是想隨便逛逛</div>
     <div class="tool-card-desc">看看我最近在寫什麼、想什麼、查什麼。</div>
   </a>
-</div>
-
----
-
-## **我現在有一個芳療問題**
-{: #question}
-
-可能是：
-
-- 精油到底要用多少濃度？這樣使用安全嗎？
-- 手上幾瓶植物油到底差在哪裡？
-- 兩支看起來很像的精油，可以互相替代嗎？
-- 我照著資料使用了，實際反應卻跟書上寫的不一樣，怎麼辦？
-{: .list-tight}
-
-如果你正在處理一個具體問題，可以先從下面這些地方開始。
-
-<div class="resource-cards">
-  <div class="resource-card">
-    <div class="resource-card-title">精油濃度與安全</div>
-    <ul>
-      <li><a href="/eo-dilution-ebook/">《精油濃度安心使用大全》</a></li>
-      <li><a href="/calculator/">精油濃度計算機</a></li>
-      <li><a href="/archive/?cat=精油安全與使用">精油安全與使用文章</a></li>
-    </ul>
-  </div>
-  <div class="resource-card">
-    <div class="resource-card-title">植物油怎麼選</div>
-    <ul>
-      <li><a href="/point-of-oil/">《看懂植物油》</a></li>
-    </ul>
-  </div>
-  <div class="resource-card">
-    <div class="resource-card-title">不同精油怎麼比較</div>
-    <p>如果你想知道的不只是「這支精油有什麼功效」，還包括為什麼選它、相似精油差在哪裡、手邊沒有某支時可以怎麼想：</p>
-    <ul>
-      <li><a href="https://www.youtube.com/playlist?list=PLvYOEfBrfAT2pMP5Ay3Gr886rLpbGA9_B">YouTube｜芳療比一比</a></li>
-    </ul>
-  </div>
-  <div class="resource-card">
-    <div class="resource-card-title">問題比較複雜，想一起整理</div>
-    <p>有些問題很難靠一篇文章回答。如果你的情況涉及特定精油、使用方式、身體狀態，或者你已經查過不少資料，還是不確定該怎麼判斷：</p>
-    <ul>
-      <li><a href="/aroma-consultation/">了解芳療諮詢</a></li>
-    </ul>
-  </div>
-  <div class="resource-card">
-    <div class="resource-card-title">想直接問，不想自己查</div>
-    <p>如果你的問題不算太複雜，比較想用最快的方式直接問到答案：</p>
-    <ul>
-      <li><a href="/qa/">主題 Q&amp;A｜線上直播即時問答</a></li>
-    </ul>
-  </div>
 </div>
 
 ---
@@ -115,7 +62,55 @@ permalink: /start-here/
 
 ---
 
-## **我對氣味、情緒與身體之間的關係有興趣**
+## **我現在有一個芳療問題**
+{: #question}
+
+可能是：
+
+- 精油到底要用多少濃度？這樣使用安全嗎？
+- 手上幾瓶植物油到底差在哪裡？
+- 兩支看起來很像的精油，可以互相替代嗎？
+- 我照著資料使用了，實際反應卻跟書上寫的不一樣，怎麼辦？
+{: .list-tight}
+
+如果你正在處理一個具體問題，可以先從下面這些地方開始。
+
+<div class="resource-cards">
+  <div class="resource-card">
+    <div class="resource-card-title">我不知道怎麼用才安全</div>
+    <ul>
+      <li><a href="/eo-dilution-ebook/">《精油濃度安心使用大全》</a></li>
+      <li><a href="/calculator/">精油濃度計算機</a></li>
+      <li><a href="/archive/?cat=精油安全與使用">精油安全與使用文章</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">我在幾個選項之間不知道怎麼選</div>
+    <p>手邊的植物油、精油，常常看起來都合理，卻不知道怎麼比：</p>
+    <ul>
+      <li><a href="/point-of-oil/">《看懂植物油》</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLvYOEfBrfAT2pMP5Ay3Gr886rLpbGA9_B">YouTube｜芳療比一比</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">我已經試過了，但事情沒有照預期發展</div>
+    <p>有些問題很難靠一篇文章回答，比較適合把你的實際情況一起放進來看：</p>
+    <ul>
+      <li><a href="/aroma-consultation/">了解芳療諮詢</a></li>
+    </ul>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card-title">我有一個比較單純的問題，想直接問</div>
+    <p>如果問題範圍不大，不需要完整的一對一整理，可以看看近期的主題 Q&amp;A：</p>
+    <ul>
+      <li><a href="/qa/">主題 Q&amp;A｜線上直播即時問答</a></li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## **我想用氣味多理解自己一點**
 {: #senses}
 
 有些芳療經驗，很難只用「這支精油有什麼功效」來理解。
@@ -156,7 +151,9 @@ permalink: /start-here/
 
 如果你現在還是不知道從哪裡開始，也沒關係。
 
-可以先用 E-mail 或 IG 私訊跟我打聲招呼，跟我說說你最近對什麼有興趣、感覺自己卡在哪裡。我可以陪你一起找找看，從哪裡開始最適合。
+可以先隨便選一個讓你有點好奇的入口看看；很多時候，讀到一個真的有感的問題，就會知道下一步想往哪裡走。
+
+如果你的情況比較具體，也可以看看 **[芳療諮詢](/aroma-consultation/)** 是否適合。
 
 **📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
 💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)**

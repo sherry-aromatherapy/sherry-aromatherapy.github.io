@@ -23,13 +23,13 @@ permalink: /learn/
 
 ---
 
-還不確定哪一種適合你？
+### 還不確定哪一種適合你？
 
 - 有一個很具體、想好好弄清楚的問題 → **芳療諮詢**
 - 想從頭建立比較有系統的芳療知識 → **課程與工作坊**
 - 問題不算太複雜，想直接問到答案就好 → **主題 Q&A**
 
-如果還是不確定，也可以先用 E-mail 或 IG 私訊和我說說看。
+如果還是很難選擇，也可以先用 E-mail 或 IG 私訊和我說說看。
 
 **📩 E-mail｜[sherry.aromatherapy@gmail.com](mailto:sherry.aromatherapy@gmail.com)  
 💬 IG｜[@sherry.aromatherapy](https://www.instagram.com/sherry.aromatherapy/)**

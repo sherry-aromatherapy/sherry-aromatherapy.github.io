@@ -238,13 +238,11 @@ nav.site-nav a.nav-cta:hover{
 }
 
 /* ---------- Nav: 支持創作 ---------- */
-nav.site-nav a.nav-support{
-  text-decoration:none;
+nav.site-nav a.nav-support span{
   border-bottom:1px solid var(--accent);
-  border-radius:0;
+  padding-bottom:3px;
 }
-nav.site-nav a.nav-support:hover{
-  background:transparent;
+nav.site-nav a.nav-support:hover span{
   border-bottom-color:var(--indigo);
 }
 
@@ -905,30 +903,53 @@ article.post .post-content summary::marker{color:var(--link-color);}
 }
 
 .post-related{
-  margin:64px 0 0;
+  margin:100px 0 0;
   padding-top:32px;
   border-top:1px solid var(--linen);
 }
 .post-related h3{
+  display:flex;
+  align-items:center;
+  gap:9px;
   font-family:var(--font-serif);
   font-size:16px;
   font-weight:700;
   letter-spacing:0.06em;
   color:var(--indigo);
-  margin:0 0 14px;
+  margin:0 0 18px;
+}
+.post-related-dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:var(--accent);
+  flex-shrink:0;
 }
 .post-related ul{
   list-style:none;
   margin:0;
   padding:0;
 }
-.post-related li{margin-bottom:10px;}
-.post-related li:last-child{margin-bottom:0;}
+.post-related li{
+  margin-bottom:20px;
+  padding-bottom:20px;
+  border-bottom:1px solid var(--linen);
+}
+.post-related li:last-child{margin-bottom:0; padding-bottom:0; border-bottom:none;}
 .post-related a{
-  font-size:14px;
+  display:block;
+  font-size:15px;
+  line-height:1.6;
   color:var(--bark);
+  margin-bottom:4px;
 }
 .post-related a:hover{color:var(--indigo);}
+.post-related-cat{
+  display:block;
+  font-size:12px;
+  color:var(--text-secondary);
+  letter-spacing:0.03em;
+}
 
 .post-nav{
   display:flex;
@@ -1139,6 +1160,19 @@ footer.site-footer .credit-en{
   .nav-links.open{display:flex;}
   .nav-links a{width:100%; text-align:left;}
   .nav-links a.nav-cta{text-align:center; margin-left:0; margin-top:6px;}
+  .nav-dropdown{display:block; width:100%;}
+  .nav-dropdown-trigger{width:100%; box-sizing:border-box;}
+  .nav-dropdown-menu{
+    display:block !important;
+    position:static;
+    box-shadow:none;
+    border:none;
+    background:transparent;
+    padding:0 0 0 14px;
+    margin-top:2px;
+    min-width:0;
+  }
+  .nav-dropdown-menu a{padding:6px 8px; font-size:12px;}
 }
 
 @media (max-width:480px){
