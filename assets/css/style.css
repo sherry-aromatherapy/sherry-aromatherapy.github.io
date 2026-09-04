@@ -217,7 +217,7 @@ nav.site-nav a.nav-cta:hover{
   position:absolute;
   top:100%;
   left:0;
-  margin-top:6px;
+  margin-top:0;
   background:var(--surface);
   border:1px solid var(--linen);
   border-radius:12px;
@@ -242,7 +242,6 @@ nav.site-nav a.nav-support{
   text-decoration:none;
   border-bottom:1px solid var(--accent);
   border-radius:0;
-  padding-bottom:5px;
 }
 nav.site-nav a.nav-support:hover{
   background:transparent;
@@ -872,14 +871,9 @@ article.post .post-content summary::marker{color:var(--link-color);}
   align-items:center;
   gap:10px;
   margin-top:70px;
-  padding:32px 0;
+  padding:32px 0 12px;
   border-top:1px solid var(--linen);
   text-align:center;
-}
-.post-signoff-leaf{
-  width:34px;
-  height:auto;
-  flex-shrink:0;
 }
 .post-signoff p{
   font-family:var(--font-sans);
@@ -889,14 +883,13 @@ article.post .post-content summary::marker{color:var(--link-color);}
   margin:0;
 }
 @media (max-width:640px){
-  .post-signoff{gap:8px; padding:24px 0;}
-  .post-signoff-leaf{width:26px;}
+  .post-signoff{gap:8px; padding:24px 0 10px;}
   .post-signoff p{font-size:12px;}
 }
 
 .post-support{
   text-align:center;
-  margin:24px 0 0;
+  margin:8px 0 0;
 }
 .post-support a{
   display:inline-block;
@@ -912,7 +905,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
 }
 
 .post-related{
-  margin:50px 0 0;
+  margin:64px 0 0;
   padding-top:32px;
   border-top:1px solid var(--linen);
 }
