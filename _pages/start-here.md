@@ -49,11 +49,11 @@ permalink: /start-here/
 
 這一區應該會很適合你。我會整理一個說法從哪裡來、研究實際上說了什麼、哪些條件常常被省略，也會討論面對彼此矛盾的資料時，可以怎麼繼續往下判斷。
 
-→ **[芳療判斷與查證](/archive/?cat=芳療判斷與查證)**
+→ **[芳療判斷與查證](/archive/judgement/)**
 
 如果你想更有系統地自己學芳療，也可以從這裡開始：
 
-→ **[芳療學習與書單](/archive/?cat=芳療學習與書單)**  
+→ **[芳療學習與書單](/archive/learning/)**  
 → **[我的 1+40 本芳療書單](/aroma-booklist/)**  
 → **[我的書](/sherrybooks/)**  
 → **[課程與工作坊](/courses/)**
@@ -81,7 +81,7 @@ permalink: /start-here/
     <ul>
       <li><a href="/eo-dilution-ebook/">《精油濃度安心使用大全》</a></li>
       <li><a href="/calculator/">精油濃度計算機</a></li>
-      <li><a href="/archive/?cat=精油安全與使用">精油安全與使用文章</a></li>
+      <li><a href="/archive/safety/">精油安全與使用文章</a></li>
     </ul>
   </div>
   <div class="resource-card">
@@ -119,7 +119,7 @@ permalink: /start-here/
 
 如果你對這些問題有興趣，可以從：
 
-→ **[嗅覺、情緒與身體](/archive/?cat=嗅覺、情緒與身體)**
+→ **[嗅覺、情緒與身體](/archive/senses/)**
 
 開始慢慢逛。
 

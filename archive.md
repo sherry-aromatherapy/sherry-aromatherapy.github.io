@@ -6,17 +6,12 @@ permalink: /archive/
 
 <div class="archive-total-count">目前共 {{ site.posts.size }} 篇文章</div>
 
-{% assign sorted_categories = site.categories | sort %}
-{% if sorted_categories.size > 0 %}
 <div class="section-heading">文章分類</div>
 <div class="archive-cat-nav">
-  {% for cat in sorted_categories %}
-  <a href="?cat={{ cat[0] }}" class="cat-pill">{{ cat[0] }}<span class="cat-count">{{ cat[1].size }}</span></a>
+  {% for item in site.data.categories %}
+  <a href="{{ '/archive/' | relative_url }}{{ item[0] }}/" class="cat-pill">{{ item[1] }}<span class="cat-count">{{ site.categories[item[1]].size }}</span></a>
   {% endfor %}
 </div>
-{% endif %}
-
-<div id="archiveFilterNote" style="display:none; font-size:13px; color:var(--mist); margin-bottom:16px;"></div>
 
 {% assign excerpt_sentence_count = 2 %}
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
@@ -26,52 +21,21 @@ permalink: /archive/
 {% assign excerpt_text = post.excerpt | strip_html | strip_newlines %}
 {% assign sentences = excerpt_text | split: "。" %}
 {% assign preview = sentences | slice: 0, excerpt_sentence_count | join: "。" %}
-<div class="post-list-item" data-cats="{{ post.categories | join: ',' }}">
+<div class="post-list-item">
   <div class="date">{{ post.date | date: "%m月%d日" }}</div>
   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   <div class="excerpt">{{ preview }}{% if sentences.size > excerpt_sentence_count %}。{% endif %}</div>
   {% if post.categories.size > 0 %}
   <div class="cats">
-    {% for cat in post.categories %}<a href="?cat={{ cat }}">{{ cat }}</a>{% endfor %}
+    {% for cat in post.categories %}
+      {% assign cat_slug = cat %}
+      {% for item in site.data.categories %}
+        {% if item[1] == cat %}{% assign cat_slug = item[0] %}{% endif %}
+      {% endfor %}
+      <a href="{{ '/archive/' | relative_url }}{{ cat_slug }}/">{{ cat }}</a>
+    {% endfor %}
   </div>
   {% endif %}
 </div>
 {% endfor %}
 {% endfor %}
-
-<script>
-(function(){
-  const params = new URLSearchParams(window.location.search);
-  const cat = params.get('cat');
-  if (!cat) return;
-
-  const note = document.getElementById('archiveFilterNote');
-  const items = document.querySelectorAll('.post-list-item');
-  let visibleCount = 0;
-
-  items.forEach(item => {
-    const cats = (item.getAttribute('data-cats') || '').split(',');
-    const match = cats.includes(cat);
-    item.style.display = match ? '' : 'none';
-    if (match) visibleCount++;
-  });
-
-  document.querySelectorAll('.section-heading').forEach(h => {
-    let sib = h.nextElementSibling;
-    let hasVisible = false;
-    while (sib && !sib.classList.contains('section-heading')){
-      if (sib.classList.contains('post-list-item') && sib.style.display !== 'none') hasVisible = true;
-      sib = sib.nextElementSibling;
-    }
-    h.style.display = hasVisible ? '' : 'none';
-  });
-
-  note.style.display = 'block';
-  note.textContent = `篩選：${cat}（共 ${visibleCount} 篇，`;
-  const clearLink = document.createElement('a');
-  clearLink.href = window.location.pathname;
-  clearLink.textContent = '清除篩選';
-  note.appendChild(clearLink);
-  note.appendChild(document.createTextNode('）'));
-})();
-</script>
