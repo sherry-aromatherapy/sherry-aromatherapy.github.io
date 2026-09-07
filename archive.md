@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "文章"
+title: "雪莉的文章"
 permalink: /archive/
 ---
 
 <div class="archive-total-count">目前共 {{ site.posts.size }} 篇文章</div>
 
-<p class="archive-intro-note">這裡大部分的文章，是把我在 IG、Threads 上聊過的想法，重新整理成更完整的版本。如果標題看起來眼熟，通常代表這裡會補上更多脈絡跟細節。</p>
+<p class="archive-intro-note">這裡大部分的文章，是把我在 IG、Threads 上聊過的想法，重新整理成更完整的版本。如果標題看起來眼熟，這裡的內容通常會補上更多脈絡跟細節。</p>
 
 <div class="section-heading">文章分類</div>
 <div class="archive-cat-nav">
