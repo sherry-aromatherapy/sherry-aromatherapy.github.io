@@ -6,9 +6,7 @@ permalink: /start-here/
 
 哈囉你好，我是雪莉～
 
-如果你第一次來到這裡，可能會發現這個網站裡有很多內容。所以如果一時不知道該從哪裡開始，很正常。
-
-我平常很在意的一件事是：**當不同答案彼此衝突時，我們能不能知道下一步該問什麼？** 我不太想只幫你記住更多標準答案，更希望這裡的內容能陪你從「我不知道怎麼選」，逐步走到「我知道自己可以從哪裡開始判斷」。
+這個網站有很多內容，為了讓你可以更快速的找到感興趣的主題，<br class="mobile-break">這一頁我整理了幾個大方向，提供你參考。
 
 先告訴我，你現在比較像哪一種：
 
@@ -128,12 +126,12 @@ permalink: /start-here/
 ## **我只是想逛逛，看看你平常在寫什麼**
 {: #browse}
 
-那也很好。你可以直接看看我最近在想什麼、查什麼、寫什麼。
+沒問題～這裡是我所有的創作內容
 
 → **[所有芳療文章](/archive/)**  
 → **[小工具](/tools/)**  
-→ **[Threads](https://www.threads.com/@sherry.aromatherapy)**  
-→ **[Instagram](https://www.instagram.com/@sherry.aromatherapy)**  
+→ **[Threads](https://www.threads.com/@sherry.aromatherapy)**（比較多文字碎念）  
+→ **[Instagram](https://www.instagram.com/@sherry.aromatherapy)**（生活動態、主題短影片）  
 → **[Podcast《不只是芳療》](https://open.spotify.com/show/033riNlYcMoPK6RfmslFXC)**  
 → **[YouTube｜雪莉的芳療自修室](https://www.youtube.com/@swl.sherrywithlove)**
 

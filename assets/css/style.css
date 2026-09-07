@@ -201,17 +201,6 @@ nav.site-nav a.nav-search-icon.active{
   color:var(--indigo);
   background:transparent;
 }
-nav.site-nav a.nav-cta{
-  background:var(--indigo);
-  color:var(--white);
-  font-weight:700;
-  border-radius:8px;
-  margin-left:8px;
-  box-shadow:0 2px 6px rgba(63,81,59,0.28);
-}
-nav.site-nav a.nav-cta:hover{
-  background:var(--indigo-deep);
-}
 
 /* ---------- Nav dropdown: 學習與諮詢 ---------- */
 .nav-dropdown{position:relative; display:inline-flex; align-items:center;}
@@ -234,6 +223,16 @@ nav.site-nav a.nav-cta:hover{
   padding:8px 12px;
   border-radius:8px;
   white-space:nowrap;
+}
+.nav-dropdown-menu a::before{
+  content:"";
+  display:inline-block;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--accent);
+  margin-right:8px;
+  vertical-align:middle;
 }
 .nav-dropdown:hover .nav-dropdown-menu,
 .nav-dropdown:focus-within .nav-dropdown-menu{
@@ -521,6 +520,19 @@ article.page .page-content .post-list-item h2,
   font-size:14px;
   color:var(--mist);
   margin:-8px 0 24px;
+}
+.archive-intro-note{
+  font-size:13px;
+  color:var(--text-secondary);
+  line-height:1.7;
+  background:var(--surface);
+  border-radius:10px;
+  padding:14px 16px;
+  margin:0 0 32px;
+}
+.mobile-break{display:none;}
+@media (max-width:640px){
+  .mobile-break{display:inline;}
 }
 
 /* ---- Tools hub page ---- */
@@ -914,7 +926,7 @@ article.post .post-content summary::marker{color:var(--link-color);}
 }
 
 .post-related{
-  margin:100px 0 0;
+  margin:56px 0 0;
   padding-top:32px;
   border-top:1px solid var(--linen);
 }
@@ -1170,7 +1182,6 @@ footer.site-footer .credit-en{
   }
   .nav-links.open{display:flex;}
   .nav-links a{width:100%; text-align:left;}
-  .nav-links a.nav-cta{text-align:center; margin-left:0; margin-top:6px;}
   .nav-dropdown{display:block; width:100%;}
   .nav-dropdown-trigger{width:100%; box-sizing:border-box;}
   .nav-dropdown-menu{

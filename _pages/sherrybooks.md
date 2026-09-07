@@ -70,6 +70,8 @@ permalink: /sherrybooks/
 
 我希望你最後帶走的，不只是一張「幾％才安全」的表格，而是理解：濃度是一個需要放回實際使用情境裡判斷的問題。
 
+<img src="{{ '/assets/images/site/reader-feedback-dilution-ebook.png' | relative_url }}" alt="讀者回饋：精油濃度安心使用大全" style="max-width:360px; width:100%; border-radius:12px; display:block; margin:24px auto;">
+
 [看看《精油濃度安心使用大全》 →](/eo-dilution-ebook/)
 
 ---

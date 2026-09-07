@@ -6,7 +6,7 @@ permalink: /aroma-consultation/
 
 <div class="consult-hero">
   <p class="consult-hero-sub"><strong>不知道這個情況該用什麼、怎麼用，或還要不要繼續試？</strong></p>
-  <p class="consult-hero-lead">你不需要先把所有資料看懂，也不用先把問題整理得很完整。把你現在遇到的情況、已經查到的資訊、試過的方法帶來，我會和你一起重新看看這條路走到哪裡了，有沒有漏掉什麼重要條件，再確認下一步比較值得往哪裡走。</p>
+  <p class="consult-hero-lead">你不需要先把所有資料看懂，也不用先把問題整理得很完整。<br class="mobile-break">把你現在遇到的情況、已經查到的資訊、試過的方法帶來，<br class="mobile-break">我會和你一起重新看看這條路走到哪裡了，有沒有漏掉什麼重要條件，<br class="mobile-break">再確認下一步比較值得往哪裡走。</p>
   <p class="consult-hero-price"><strong>90 分鐘｜Google Meet 一對一線上進行｜NT$2,000</strong></p>
   <p class="consult-hero-cta"><strong>👉 <a href="https://forms.gle/X5aTEBoJXAzv7XSQA">［預約芳療諮詢，一起看看下一步］</a></strong></p>
 </div>
