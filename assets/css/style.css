@@ -452,7 +452,7 @@ article.page .page-content .post-list-item h2,
   flex-wrap:wrap;
 }
 @media (min-width:800px){
-  .hero{min-height:72vh;}
+  .hero{min-height:auto;}
 }
 .hero-text{
   flex:1 1 400px;
