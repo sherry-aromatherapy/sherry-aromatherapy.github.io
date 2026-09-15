@@ -441,7 +441,7 @@ article.page .page-content .post-list-item h2,
   left:50%;
   transform:translateX(-50%);
   width:100vw;
-  max-width:1040px;
+  max-width:960px;
   box-sizing:border-box;
   padding:8px 20px 48px;
   margin-bottom:64px;
@@ -456,7 +456,7 @@ article.page .page-content .post-list-item h2,
 }
 .hero-text{
   flex:1 1 400px;
-  max-width:55%;
+  max-width:52%;
   min-width:280px;
 }
 .hero-eyebrow{
@@ -507,7 +507,7 @@ article.page .page-content .post-list-item h2,
 .hero-btn-secondary:hover{background:var(--surface); text-decoration:none;}
 .hero-image{
   flex:1 1 320px;
-  max-width:45%;
+  max-width:48%;
   min-width:260px;
 }
 .hero-image img{
