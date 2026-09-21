@@ -798,6 +798,15 @@ article.post .post-content{
   font-size:15px;
   line-height:1.85;
 }
+.post-editing-notice{
+  background:var(--surface, #FFFDFC);
+  border:1px solid var(--border, #E9E2DC);
+  border-left:3px solid var(--clay, #D89A91);
+  border-radius:6px;
+  padding:14px 18px;
+  font-size:14px;
+  color:var(--text-secondary, #786D65);
+}
 article.post .post-content h2{
   font-family:var(--font-serif);
   font-size:24px;

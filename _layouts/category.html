@@ -5,7 +5,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   <div class="page-content">
 
-    {% assign cat_posts = site.categories[page.category_name] %}
+    {% assign cat_posts = site.categories[page.category_name] | where_exp: "p", "p.hidden != true" %}
     <div class="archive-total-count">這個分類共 {{ cat_posts.size }} 篇文章</div>
 
     <div class="section-heading">所有分類</div>
@@ -13,7 +13,7 @@ layout: default
       <a href="{{ '/archive/' | relative_url }}" class="cat-pill">所有文章</a>
       {% for item in site.data.categories %}
         {% assign this_name = item[1] %}
-        {% assign this_posts = site.categories[this_name] %}
+        {% assign this_posts = site.categories[this_name] | where_exp: "p", "p.hidden != true" %}
         <a href="{{ '/archive/' | relative_url }}{{ item[0] }}/" class="cat-pill{% if this_name == page.category_name %} active{% endif %}">{{ this_name }}<span class="cat-count">{{ this_posts.size }}</span></a>
       {% endfor %}
     </div>

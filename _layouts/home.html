@@ -32,9 +32,10 @@ layout: default
 </div>
 
 {% assign excerpt_sentence_count = 3 %}
+{% assign visible_posts = site.posts | where_exp: "p", "p.hidden != true" %}
 <div class="home-section">
 <div class="section-heading">最新文章</div>
-{% for post in site.posts limit: 5 %}
+{% for post in visible_posts limit: 5 %}
 {% assign excerpt_text = post.excerpt | strip_html | strip_newlines %}
 {% assign sentences = excerpt_text | split: "。" %}
 {% assign preview = sentences | slice: 0, excerpt_sentence_count | join: "。" %}
