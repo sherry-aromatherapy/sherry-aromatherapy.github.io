@@ -1,6 +1,7 @@
 (function(){
   const input = document.getElementById('searchInput');
   const results = document.getElementById('searchResults');
+  const submitBtn = document.getElementById('searchSubmit');
   if (!input || !results) return;
 
   let searchData = null;
@@ -58,13 +59,17 @@
     `).join('');
   }
 
+  function doSearch(){
+    loadData().then(() => render(input.value));
+  }
+
   loadData().then(() => {
     input.focus();
   });
 
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter'){
-      loadData().then(() => render(input.value));
+      doSearch();
     }
   });
 
@@ -73,4 +78,12 @@
       results.innerHTML = '';
     }
   });
+
+  if (submitBtn){
+    submitBtn.addEventListener('click', doSearch);
+    submitBtn.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      doSearch();
+    });
+  }
 })();

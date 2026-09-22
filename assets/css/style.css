@@ -282,8 +282,8 @@ nav.site-nav a.nav-support:hover span{
   right:16px;
   top:50%;
   transform:translateY(-50%);
-  width:28px;
-  height:28px;
+  width:32px;
+  height:32px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -292,8 +292,10 @@ nav.site-nav a.nav-support:hover span{
   font-size:14px;
   color:var(--text-secondary);
   background:var(--white);
-  pointer-events:none;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
 }
+.search-enter-hint:active{background:var(--linen);}
 .search-results{margin-top:20px;}
 .search-result-item{
   padding:16px 0;
