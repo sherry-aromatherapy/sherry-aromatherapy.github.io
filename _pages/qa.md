@@ -28,7 +28,7 @@ permalink: /qa/
 
 訂閱最新消息，場次一確定就會通知你。
 
-**👉 [訂閱最新消息](https://forms.gle/tTikL2YGSpqny3Sa9)**
+**👉 [訂閱最新消息](https://thoughtful-trader-6694.kit.com/1332cc7396)**
 
 如果你已經有想問的問題，也可以先用 E-mail 或 IG 私訊告訴我，我會留意安排進對應的場次裡。
 
