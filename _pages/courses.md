@@ -31,7 +31,7 @@ permalink: /courses/
 
 訂閱最新消息，確定開課會通知你。
 
-**👉 [訂閱最新消息](https://thoughtful-trader-6694.kit.com/1332cc7396)**
+**👉 [訂閱最新消息](https://forms.gle/tTikL2YGSpqny3Sa9)**
 
 如果你對某個主題特別有興趣，也可以先用 E-mail 或 IG 私訊告訴我，開課規劃時我會列入考慮。
 

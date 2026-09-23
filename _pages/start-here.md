@@ -143,7 +143,7 @@ permalink: /start-here/
 
 我的更新頻率不固定。有新的文章、Podcast、課程、Q&A、新書，或其他我覺得值得特別告訴你的內容時，我會透過 E-mail 通知。
 
-→ **[免費訂閱最新消息](https://thoughtful-trader-6694.kit.com/1332cc7396)**
+→ **[免費訂閱最新消息](https://forms.gle/tTikL2YGSpqny3Sa9)**
 
 ---
 
